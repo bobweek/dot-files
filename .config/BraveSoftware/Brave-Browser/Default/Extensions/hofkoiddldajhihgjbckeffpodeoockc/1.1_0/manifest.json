@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "js/context.js" ]
+   },
+   "description": "This extension gets your bibtex citation through your text selection within one-click. ",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnnCr/aI0VjmpJzdM++TNCcDijkYjB0HM8NpUuGmO0sJGKnDcjBR1Mt/oiajd1n2hILxV6a3QwGINoYgmrbeyxfkXZ50++M/QOYIpIu4ZQYRlQljsS40mOgd02E1gSs1FjXSvd/Q8Zcpn4pBrzoVj+TsQ5fnLq+1kki1EQnT9x3xaguAZyFmQqbdS7FfLkt4Q31cu4Uou6YmgUP1/yVj0+371BqDhCktEH1T3W1zOztV5Tr6COcMTzdlAnJh7AcjI6MJTTCF3srO1Yq433hhE+thgoHcfEBXTsB5QwubC4KkcbaYqg1V/uCFvzVjE86wotpGZp6woj7PlG4Ex4ExmqwIDAQAB",
+   "manifest_version": 2,
+   "name": "BibTex It!",
+   "permissions": [ "activeTab", "contextMenus", "https://scholar.google.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

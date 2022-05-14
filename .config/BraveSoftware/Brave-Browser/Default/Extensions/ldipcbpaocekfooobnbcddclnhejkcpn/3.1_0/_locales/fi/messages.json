@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Palvelimeen ei saada yhteyttä."
+   },
+   "1108": {
+      "message": "Avaa tulokset uudella välilehdellä"
+   },
+   "1109": {
+      "message": "Ei hakutuloksia"
+   },
+   "1285": {
+      "message": "Tallennettu $ANCHOR_BEGIN$kirjastoosi$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Siirry taaksepäin"
+   },
+   "1299": {
+      "message": "Siirry eteenpäin"
+   },
+   "1300": {
+      "message": "Vaihda tiliä"
+   },
+   "1301": {
+      "message": "Asetukset"
+   },
+   "625": {
+      "message": "Ladataan..."
+   },
+   "64": {
+      "message": "Tallenna"
+   },
+   "732": {
+      "message": "Oma kirjasto"
+   },
+   "853": {
+      "message": "Google Scholar -painike"
+   },
+   "854": {
+      "message": "Etsii Scholar-artikkeleita internetin käytön aikana."
+   },
+   "855": {
+      "message": "Etsi artikkeleita selaamisen aikana."
+   },
+   "920": {
+      "message": "Haku"
+   },
+   "96": {
+      "message": "Poista"
+   }
+}

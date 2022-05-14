@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Povezave s strežnikom ni bilo mogoče vzpostaviti."
+   },
+   "1108": {
+      "message": "Odpiranje rezultatov na novem zavihku"
+   },
+   "1109": {
+      "message": "Za to iskanje ni rezultatov."
+   },
+   "1285": {
+      "message": "Shranjeno v $ANCHOR_BEGIN$knjižnico$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Nazaj"
+   },
+   "1299": {
+      "message": "Naprej"
+   },
+   "1300": {
+      "message": "Prijava v drug račun"
+   },
+   "1301": {
+      "message": "Nastavitve"
+   },
+   "625": {
+      "message": "Nalaganje ..."
+   },
+   "64": {
+      "message": "Shrani"
+   },
+   "732": {
+      "message": "Moja knjižnica"
+   },
+   "853": {
+      "message": "Gumb za Google Učenjaka"
+   },
+   "854": {
+      "message": "Med brskanjem po spletu išče učenjaške članke."
+   },
+   "855": {
+      "message": "Med brskanjem išče članke."
+   },
+   "920": {
+      "message": "Išči"
+   },
+   "96": {
+      "message": "Izbriši"
+   }
+}

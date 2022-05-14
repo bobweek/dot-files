@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nie można uzyskać dostępu do serwera."
+   },
+   "1108": {
+      "message": "Otwórz wyniki w nowej karcie"
+   },
+   "1109": {
+      "message": "Brak wyników dla tego wyszukiwania."
+   },
+   "1285": {
+      "message": "Zapisano w $ANCHOR_BEGIN$Twojej bibliotece$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Wstecz"
+   },
+   "1299": {
+      "message": "Dalej"
+   },
+   "1300": {
+      "message": "Przełącz konto"
+   },
+   "1301": {
+      "message": "Ustawienia"
+   },
+   "625": {
+      "message": "Wczytuję..."
+   },
+   "64": {
+      "message": "Zapisz"
+   },
+   "732": {
+      "message": "Moja biblioteka"
+   },
+   "853": {
+      "message": "Przycisk Google Scholar"
+   },
+   "854": {
+      "message": "Wyszukuj artykuły naukowe podczas przeglądania sieci"
+   },
+   "855": {
+      "message": "Wyszukuj artykuły naukowe podczas przeglądania"
+   },
+   "920": {
+      "message": "Szukaj"
+   },
+   "96": {
+      "message": "Usuń"
+   }
+}

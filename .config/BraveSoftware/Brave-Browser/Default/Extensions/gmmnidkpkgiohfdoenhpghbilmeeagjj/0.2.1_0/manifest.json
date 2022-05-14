@@ -1,0 +1,52 @@
+{
+   "author": "Gerry Chen and Orçun Özdemir and Lucas Sterzinger",
+   "background": {
+      "scripts": [ "browser-polyfill.js", "background.js", "helper_js/doi-metadata-scraper.js", "helper_js/pdf-link-scraper.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+         "48": "icons/48x48.png",
+         "96": "icons/96x96.png"
+      },
+      "default_title": "Sci-Hub X Now!",
+      "theme_icons": [ {
+         "dark": "icons/48x48.png",
+         "light": "icons/48x48_white.png",
+         "size": 48
+      }, {
+         "dark": "icons/96x96.png",
+         "light": "icons/96x96_white.png",
+         "size": 96
+      } ]
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Alt+A",
+            "linux": "Alt+A",
+            "mac": "Alt+A",
+            "windows": "Alt+A"
+         }
+      }
+   },
+   "description": "Free access to academic papers with just a single click via sci-hub!",
+   "homepage_url": "https://github.com/gchenfc/sci-hub-now",
+   "icons": {
+      "48": "icons/48x48.png",
+      "96": "icons/96x96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0PFKrxFCF+tVrOAVP5X2qH1h56yJ4oAmqQkTh7Gc2DPwb7I5tdqqd9hSau77foJdlbcceCdImzEkwkJqaAA0iYsvhKFfiNAiNq0Ghrya0HR1wihnjY5X9hyR2OhDrxNthmqGEO/0kbyiV4KCr/CdkRrKQSh8WZE1T4+Ra+q8L4QoJV7vRgK5M+E53p4RsZD1AngTH+bgcbxZZc1M0RfYgMc0Ag/svYoRBNl05jrOB2w2A75jjKCHxIoIXzdDxPiOtBZl+X3y8Ij3+7xBOkaEmyxyrL82m2lKgKHPNhlKrqMFeKvXtCa90jRNAqAsY/JB1AcMNGaY2VOr71GAOFKDswIDAQAB",
+   "manifest_version": 2,
+   "name": "Sci-Hub X Now!",
+   "optional_permissions": [ "downloads", "https://doi.crossref.org/servlet/query*", "*://*/*" ],
+   "options_page": "options.html",
+   "options_ui": {
+      "browser_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "activeTab", "contextMenus", "storage" ],
+   "short_name": "sci-hub-x-now",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

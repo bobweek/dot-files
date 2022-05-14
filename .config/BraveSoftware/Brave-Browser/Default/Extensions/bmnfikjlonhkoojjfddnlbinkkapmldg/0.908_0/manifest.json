@@ -1,0 +1,59 @@
+{
+   "background": {
+      "scripts": [ "background/background_url.js", "background/background_resources.js", "background/parser/background_schema.js", "background/parser/background_parse_bib.js", "background/background_interaction.js", "background/background_load.js" ]
+   },
+   "browser_action": {
+      "browser_style": false,
+      "default_icon": {
+         "19": "icons/icon-19.png",
+         "38": "icons/icon-38.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "Bib it now! (DEFAULT SHORTCUT: ALT+C)"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+C",
+            "linux": "Alt+C",
+            "mac": "Alt+C",
+            "windows": "Alt+C"
+         }
+      },
+      "browser_action_autocopy": {
+         "description": "Opens the BibItNow! popup and copies the citation text/redirection link automatically to clipboard if auto copy option enabled.",
+         "suggested_key": {
+            "default": "Alt+W",
+            "linux": "Alt+W",
+            "mac": "Alt+W",
+            "windows": "Alt+W"
+         }
+      },
+      "browser_action_autodownload": {
+         "description": "Opens the BibItNow! popup and downloads the citation automatically.",
+         "suggested_key": {
+            "default": "Alt+Q",
+            "linux": "Alt+Q",
+            "mac": "Alt+Q",
+            "windows": "Alt+Q"
+         }
+      }
+   },
+   "description": "Instantly generates a Bibtex, RIS, Endnote, APA, MLA or (B)Arnold S. bibliography item from journal articles, books, etc. .",
+   "icons": {
+      "128": "icons/icon-128.png",
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgMFltr73K8iN36ohsHYF/MN0BXKCjHYrI9rGqCAbBrBnbhvl+zXsbdxaLrEuTyo3o81RxzD9mj7pbY8fF9rJTbMzHuX9Yry/EPynaFDuNKxVKejvRPR7HhoGcWYKx17+ydq3CDHoijbnon4I4xiAh7l0RnoywJvr3e5DTXgNr3n4u52lZW27p25DrITSICK7pR5wycMABPSbynZn7WN0ARratIpfpE9wgLxGOgX8ANU0Yhh8vCKRuCIf2luqjvnY+0SRDAYz0lYEy/hE4cRH/ctOWMKkPLmmbvC2SShVWTmqGmi4rQvmioCMJpUFy5qf5PwdWtDNA52GXq7KsCHE0QIDAQAB",
+   "manifest_version": 2,
+   "name": "BibItNow!",
+   "omnibox": {
+      "keyword": "doi"
+   },
+   "optional_permissions": [ "clipboardWrite", "*://citation-needed.springer.com/*" ],
+   "options_page": "description.html",
+   "permissions": [ "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.908"
+}

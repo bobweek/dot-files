@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Hindi ma-access ang server."
+   },
+   "1108": {
+      "message": "Buksan ang mga resulta sa isang bagong tab"
+   },
+   "1109": {
+      "message": "Walang resulta para sa paghahanap na ito."
+   },
+   "1285": {
+      "message": "Na-save sa $ANCHOR_BEGIN$iyong library$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Bumalik"
+   },
+   "1299": {
+      "message": "Pumunta sa susunod"
+   },
+   "1300": {
+      "message": "Magpalit ng account"
+   },
+   "1301": {
+      "message": "Mga Setting"
+   },
+   "625": {
+      "message": "Naglo-load..."
+   },
+   "64": {
+      "message": "I-save"
+   },
+   "732": {
+      "message": "Aking library"
+   },
+   "853": {
+      "message": "Button ng Google Scholar"
+   },
+   "854": {
+      "message": "Maghanap ng mga scholarly na artikulo habang bina-browe mo ang web."
+   },
+   "855": {
+      "message": "Maghanap ng mga akademikong papel habang nagba-browse ka."
+   },
+   "920": {
+      "message": "Maghanap"
+   },
+   "96": {
+      "message": "Tanggalin"
+   }
+}

@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Unable to access the server."
+   },
+   "1108": {
+      "message": "Open results in a new tab"
+   },
+   "1109": {
+      "message": "No results for this search."
+   },
+   "1285": {
+      "message": "Saved to $ANCHOR_BEGIN$your library$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Go back"
+   },
+   "1299": {
+      "message": "Go forward"
+   },
+   "1300": {
+      "message": "Switch account"
+   },
+   "1301": {
+      "message": "Settings"
+   },
+   "625": {
+      "message": "Loading..."
+   },
+   "64": {
+      "message": "Save"
+   },
+   "732": {
+      "message": "My library"
+   },
+   "853": {
+      "message": "Google Scholar Button"
+   },
+   "854": {
+      "message": "Lookup scholarly articles as you browse the web."
+   },
+   "855": {
+      "message": "Lookup papers as you browse."
+   },
+   "920": {
+      "message": "Search"
+   },
+   "96": {
+      "message": "Delete"
+   }
+}

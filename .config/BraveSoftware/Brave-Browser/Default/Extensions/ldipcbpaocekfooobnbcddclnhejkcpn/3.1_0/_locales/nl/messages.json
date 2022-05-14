@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Kan geen toegang krijgen tot de server."
+   },
+   "1108": {
+      "message": "Resultaten openen in een nieuw tabblad"
+   },
+   "1109": {
+      "message": "Geen resultaten voor deze zoekopdracht."
+   },
+   "1285": {
+      "message": "Opgeslagen in $ANCHOR_BEGIN$je bibliotheek$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Terug"
+   },
+   "1299": {
+      "message": "Vooruit"
+   },
+   "1300": {
+      "message": "Ander account"
+   },
+   "1301": {
+      "message": "Instellingen"
+   },
+   "625": {
+      "message": "Laden..."
+   },
+   "64": {
+      "message": "Opslaan"
+   },
+   "732": {
+      "message": "Mijn bibliotheek"
+   },
+   "853": {
+      "message": "Google Scholar-knop"
+   },
+   "854": {
+      "message": "Wetenschappelijke artikelen opzoeken tijdens het surfen op internet."
+   },
+   "855": {
+      "message": "Essays opzoeken tijdens het surfen."
+   },
+   "920": {
+      "message": "Zoeken"
+   },
+   "96": {
+      "message": "Verwijderen"
+   }
+}

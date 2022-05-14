@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Impossibile accedere al server."
+   },
+   "1108": {
+      "message": "Apri i risultati in una nuova scheda"
+   },
+   "1109": {
+      "message": "Nessun risultato per questa ricerca."
+   },
+   "1285": {
+      "message": "Articolo salvato nella $ANCHOR_BEGIN$tua biblioteca$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Indietro"
+   },
+   "1299": {
+      "message": "Avanti"
+   },
+   "1300": {
+      "message": "Cambia account"
+   },
+   "1301": {
+      "message": "Impostazioni"
+   },
+   "625": {
+      "message": "Caricamento in corso..."
+   },
+   "64": {
+      "message": "Salva"
+   },
+   "732": {
+      "message": "La mia biblioteca"
+   },
+   "853": {
+      "message": "Pulsante Google Scholar"
+   },
+   "854": {
+      "message": "Ricerca articoli accademici mentre navighi sul Web."
+   },
+   "855": {
+      "message": "Ricerca documenti durante la navigazione."
+   },
+   "920": {
+      "message": "Cerca"
+   },
+   "96": {
+      "message": "Elimina"
+   }
+}

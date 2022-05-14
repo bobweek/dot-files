@@ -1,0 +1,29 @@
+{
+   "author": "SmartLink",
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_title": "Have a good day"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://www.instagram.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "Enjoy the web in the new night colors and protect your eyes",
+   "icons": {
+      "128": "imgs/icon128.png",
+      "16": "imgs/icon16.png",
+      "48": "imgs/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwBaT+hBZVT0ZJGKl3gi3ALc4g476Ef0YvaHZShTaXymrzAmAw1lRPq+3Lak6i1nlyXpsqrgGkfKxij2dLG7W5zTKhMPZLHk6cKxGATx+8vcWeGQ10FypvJve/LGCio7/HegtQBpYyFKimMmNLKRnmmX51b+Jsn+T/gi8FHfq/sgvHVD6kOGmEAugoNMLtaBUqgyn4ljeeh1LkpZtDdwxwwoc+XAIKO2rU+4+HHMesirId3V7uAy4Fo8ngdgJbJ8X0KkwzLbuHUe5HPu60pJfFD49F8hDaflaQJsoC9DRabyv0Fz4M0cRlh5TTuQpBaKbxjU5dbNjfETiXEuuL6i1rwIDAQAB",
+   "manifest_version": 2,
+   "name": "Night Mode",
+   "permissions": [ "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.73",
+   "web_accessible_resources": [ "nightmode.css" ]
+}

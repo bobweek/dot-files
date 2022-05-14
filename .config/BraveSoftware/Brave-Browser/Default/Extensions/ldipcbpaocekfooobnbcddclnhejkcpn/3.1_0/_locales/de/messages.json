@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Der Zugriff auf den Server ist nicht möglich."
+   },
+   "1108": {
+      "message": "Ergebnisse in einem neuen Tab öffnen"
+   },
+   "1109": {
+      "message": "Diese Suche verlief ergebnislos."
+   },
+   "1285": {
+      "message": "In $ANCHOR_BEGIN$Ihrer Bibliothek$ANCHOR_END$ gespeichert.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Zurück"
+   },
+   "1299": {
+      "message": "Weiter"
+   },
+   "1300": {
+      "message": "Konto wechseln"
+   },
+   "1301": {
+      "message": "Einstellungen"
+   },
+   "625": {
+      "message": "Wird geladen..."
+   },
+   "64": {
+      "message": "Speichern"
+   },
+   "732": {
+      "message": "Meine Bibliothek"
+   },
+   "853": {
+      "message": "Google Scholar-Schaltfläche"
+   },
+   "854": {
+      "message": "Schlagen Sie wissenschaftliche Artikel nach, während Sie im Web surfen"
+   },
+   "855": {
+      "message": "Beim Surfen im Web in Artikeln nachschlagen"
+   },
+   "920": {
+      "message": "Suchen"
+   },
+   "96": {
+      "message": "Löschen"
+   }
+}

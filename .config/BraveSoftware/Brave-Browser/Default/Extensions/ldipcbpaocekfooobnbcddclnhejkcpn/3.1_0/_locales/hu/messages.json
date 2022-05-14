@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nem sikerült elérni a szervert."
+   },
+   "1108": {
+      "message": "Találatok megnyitása új lapon"
+   },
+   "1109": {
+      "message": "Ez a keresés nem eredményezett találatot."
+   },
+   "1285": {
+      "message": "Elmentve a $ANCHOR_BEGIN$Saját könyvtárba$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Vissza"
+   },
+   "1299": {
+      "message": "Előre"
+   },
+   "1300": {
+      "message": "Fiókváltás"
+   },
+   "1301": {
+      "message": "Beállítások"
+   },
+   "625": {
+      "message": "Betöltés…"
+   },
+   "64": {
+      "message": "Mentés"
+   },
+   "732": {
+      "message": "Saját könyvtár"
+   },
+   "853": {
+      "message": "Google Tudós gomb"
+   },
+   "854": {
+      "message": "Keressen tudományos cikkeket az internet böngészése közben!"
+   },
+   "855": {
+      "message": "Keressen tanulmányokat böngészés közben!"
+   },
+   "920": {
+      "message": "Keresés"
+   },
+   "96": {
+      "message": "Törlés"
+   }
+}

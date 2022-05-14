@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<link rel="stylesheet" href="description.css">
+	<body>
+		<center><h1>BibItNow Global Options</h1></center>
+		
+		<h2>Citation format options</h2>
+		Each native citation format -- Bibtex, RIS, Endnote, (B)Arnold S., APA and MLA -- comes with its own set of format specific output options. <b>For better workflow, these options are accessed directly via the extension popup!</b> If you want to access these options from here, <span style="color: blue"><b>click on the extension icon</b></span> or press the designated shortcut keys to open the extension popup. You then reach the format specific options by choosing the format with the format selector in the upper left of the popup, and then by pressing the <span style="color: blue"><b>"+ Format settings"</b></span> button in the popup!</span>
+		<p>
+		
+		</p>
+		
+		<br>
+		<h2>Dynamic citation export requests</h2>
+		<a name="dyndownload">
+		In addition to reading the HTML code of abstract pages, this extension also attempts to improve the extracted citation data by dynamically requesting the publisher's own citation export. While this additional web request may delay the data extraction process a little bit (depending on the internet connection), it retrieves typically much more reliable data from the publisher's own internal database. Here, you may enable or disable this functionality. Moreover, you can set the maximum time that the request may take.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="downloadCitationCheckbox" name="downloadCitationCheckbox" type="checkbox" checked="checked"></input><span id="checkboxText">&nbsp;Enable dynamic citation export requests with&nbsp;</span>
+				<input id="downloadCitationTimeout" name="downloadCitationTimeout" type="number" step="1" min="1" max="99" value="5" style="width: 1.5cm"><span id="numfieldText">&nbsp; seconds timeout.</span>
+			</span>
+		</p>
+		Nature.com or Springer.com tend to fetch citations dynamically using a cross-origin request to the host "https://citation-needed.springer.com/". By default, BibItNow! is not allowed to perform such requests. Here you can grant permission for cross-origin requests to this specific host. You can also turn off the message in the extension popup warning against the failed cross-origin request.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="downloadCitationNatureCheckbox" name="downloadCitationNatureCheckbox" type="checkbox" checked="checked"></input><span id="checkboxNatureText">&nbsp;Allow cross-site requests to https://citation-needed.springer.com/</span>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="downloadCitationNatureMessageCheckbox" name="downloadCitationNatureMessageCheckbox" type="checkbox" checked="checked"></input><span id="checkboxNatureMessageText">&nbsp;Show warning message indicating a failed cross-site request to https://citation-needed.springer.com/</span>
+			</span>
+		</p>
+		
+		<br>
+		<h2>PDF fallback mode</h2>
+        <span id="fallbackFirefox">Documents in pdf formart viewed in the browser do not directly expose any citation data. For specifically enabled publisher websites, the PDF fallback mode of BibItNow! therefore provides the user with the option to open the associated abstract page with a single click directly from the extension popup.</span>
+        <span id="fallbackChrome">Documents in pdf formart viewed in the browser do not directly expose any citation data. For specifically enabled publisher websites, the PDF fallback mode of BibItNow! therefore tries to automatically load the citation data in the background via a same-origin request to the associated abstract page. You can also turn off automatic fetching and instead use the option to manually open the abstract page with a single click directly from the extension popup.</span>
+        <p>
+			<span style="white-space: nowrap">
+				<input id="pdfFallbackCheckbox" name="pdfFallbackCheckbox" type="checkbox" checked="checked"></input><span id="pdfFallbackCheckboxText">&nbsp;Enable PDF fallback mode</span>
+			</span>
+		</p>
+		<p id="pdfFallbackAutoCheckboxParagraph">
+			<span style="white-space: nowrap">
+				<input id="pdfFallbackAutoCheckbox" name="pdfFallbackAutoCheckbox" type="checkbox" checked="checked"></input><span id="pdfFallbackAutoCheckboxText">&nbsp;Automatically load abstract page in background (mostly ineffective on Firefox)</span>
+			</span>
+		</p>
+		
+		<br>
+		<h2>Appearance and Navigation</h2>
+		In order to optimize the workflow, you may want BibItNow to automatically focus on the text area whenever citation data has been retrieved and displayed.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="autofocusCheckbox" name="autofocusCheckbox" type="checkbox" checked="checked"></input><span id="autofocusCheckboxText">&nbsp;Automatically focus on extracted citation text</span>
+			</span>
+		</p>
+
+		Since you still might want to read the marked text without exhausting your eyes, this plugin also allows you to adjust the text highlight color to your liking.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="focusColorCheckbox" name="focusColorCheckbox" type="checkbox"></input><span id="focusColorCheckboxText">&nbsp;Set custom color for highlight background&nbsp;</span>
+				<input id="focusColorPicker" type="color" value="#a1e9ff"></input>
+				&nbsp; <span id="focusTextColorCheckboxText">and for highlighted text&nbsp;</span>
+				<input id="focusTextColorPicker" type="color" value="#000000"></input>
+			</span>
+		</p>
+		Whenever BibItNow is instructed to copy the citation or the redirection link to clipboard, a visual cue appears in the extension popup signalling the copy process. Here you can enable or disable this visual notification.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyVisualCueCheckbox" name="copyVisualCueCheckbox" type="checkbox" checked="checked"></input><span id="copyVisualCueCheckboxText">&nbsp;Enable visual notification of copy process</span>
+			</span>
+		</p>
+		If you are happy with how BibItNow is configured, you may also want to permanently hide certain option links from the extension popup.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="formatHideCheckbox" name="formatHideCheckbox" type="checkbox"></input><span id="formatHideCheckboxText">&nbsp;Hide "Add/Remove format->" link in popup</span>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyHideCheckbox" name="copyHideCheckbox" type="checkbox"></input><span id="copyHideCheckboxText">&nbsp;Hide "Copy options->" link in popup</span>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="editHideCheckbox" name="editHideCheckbox" type="checkbox"></input><span id="editHideCheckboxText">&nbsp;Hide "Edit->" link in popup</span>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="bobbelsCheckbox" name="bobbelsCheckbox" type="checkbox"></input><span id="bobbelsCheckboxText">&nbsp;BobbelsItNow!</span>
+			</span>
+		</p>
+		To enable quick adjustments of general options, BibItNow refocusses on the tab from which this option page has originally been opened if this option page is closed. This, however, only happens if the user has not set focus to any tab other than this option page or the tab from which this page was opened. Moreover, you can here enable or disable this behavior altogethers.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="backNavigationCheckbox" name="backNavigationCheckbox" type="checkbox"></input><span id="backNavigationCheckboxText">&nbsp;Refocus original tab after option page is closed if user has not switched to different tab while option page is open.&nbsp;</span>
+			</span>
+		</p>
+		<br>
+		
+		<a name="copyOptions">
+		<h2>Automatic citation download</h2>
+		By opening the extension with the <b>auto-download shortcut (DEFAULT: Alt+Q)</b>, you can instruct BibItNow! to immediately trigger the citation download (=click on "Open/Download" link) once the citation has been successfully generated.
+		<span style="font-size: 0.45cm">(<b>DISCLAIMER:</b> Note that the download dialogue automatically causes the extension popup to close again, hence not allowing you to inspect the citation prior to downloading. BibItNow applies many sanitizers to the raw meta data extracted from the website before creating a citation download. However, as always, we cannot fully rule out the possibility of malicious websites injecting malicious citation text that may cause harm if downloaded and then opened with another software. Use auto download only on trusted websites! The creators of BibItNow! do not take responsibility for any caused damage!)</span><br><br>
+		<p>
+		
+		</p>
+		
+		<br>
+		
+		<h2>Copy workflow</h2>
+		<div id="autocopyCheckboxes">
+		If supported by the browser, BibItNow offers an alternative way to open the extension popup that initiates an automatic copy of the parsed citation output or the redirection link to clipboard without any further user interaction. Here you can enable this functionality and configure how to invoke it.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyEnableCheckbox" name="copyEnableCheckbox" type="checkbox" ></input><span id="copyEnableCheckboxText">&nbsp;Allow BibItNow! to automatically copy to clipboard</span><br>
+			</span>
+			<span style="font-size: 0.45cm">(<b>DISCLAIMER:</b> BibItNow applies many sanitizers to the raw meta data extracted from the website before displaying it in the popup and generating a redirection link. However, as always, we cannot fully rule out the possibility of malicious websites injecting malicious citation text that may cause harm if copied to clipboard and afterwards pasted somewhere else. Use auto copy only on trusted websites! The creators of BibItNow! do not take responsibility for any caused damage!)</span><br><br>
+		</p>
+		<span id="copyAlwaysIntroText">To avoid interfering with the usual clipboard usage and for security reasons, automatic copies to clipboard are only initiated if the user <b>opens the popup with a special, configurable keyboard short cut (DEFAULT: Alt+W)</b>. However, you can allow the extension to always perform automatic copies once the popup is opened.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyAlwaysEnableCheckbox" name="copyAlwaysEnableCheckbox" type="checkbox" ></input><span id="copyAlwaysEnableCheckboxText">&nbsp;Always perform automatic copies to clipboard if extension popup is opened</span><br>
+			</span>
+			<span style="font-size: 0.45cm">(<b>DISCLAIMER:</b> We cannot fully rule out the possibility of malicious websites injecting malicious citation data that may cause harm if copied to clipboard and afterwards pasted somewhere else. By setting auto copy as the default behavior, opening the extension popup accidentally or willingly on any potentially dangerous website may copy text to clipboard that may cause harm if pasted somewhere else. Use with caution! The creators of BibItNow! do not take responsibility for any caused damage!)</span><br><br>
+		</p>
+		<span id="copyLinkOnChangeIntroText">Depending on your workflow, you may prefer to have the generated redirection link instead of the citation text copied to clipboard if the redirection scheme is changed.</span><br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyLinkOnChangeCheckbox" name="copyLinkOnChangeCheckbox" type="checkbox" ></input><span id="copyLinkOnChangeCheckboxText">&nbsp;Automatically copy the redirection link instead of the citation text if the redirection scheme is changed</span>
+			</span>
+		</p>
+		<span id="copyLinkIntroText">You may also prefer to <b>always</b> have the generated redirection link instead of the citation text copied automatically to clipboard.</span><br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyLinkCheckbox" name="copyLinkCheckbox" type="checkbox" ></input><span id="copyLinkCheckboxText">&nbsp;Always prefer automatically copying the redirection link instead of the citation text</span>
+			</span>
+		</p>
+		</div>
+		Depending on your workflow, you may prefer to use the copy button in the popup to copy the generated redirection link instead of the citation text.<br>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="copyButtonLinkCheckbox" name="copyButtonLinkCheckbox" type="checkbox"></input><span id="copyButtonLinkCheckboxText">&nbsp;Use copy button to copy redirection link instead of citation text</span>
+			</span>
+		</p>
+		<br>
+		
+		<h2>Bibkey customization</h2>
+		Each citation created by BibItNow comes with a bibliography key -- the bibkey -- that is used as the Bibtex entry ID/reference in the Bibtex parser, and as the filename when downloading the citation as a file. Here, you may customize this bibkey by specifying a format string.
+		
+		<p>
+			<span style="white-space: nowrap">
+				<input id="bibkeyCheckbox" name="bibkeyCheckbox" type="checkbox"></input><span id="bibkeyCheckboxText">&nbsp;Enable bibkey customization with white-space replacement character <input type="text" id="whiteSpaceChar" style="width: 0.5cm" value="_" size="1" maxlength="1" pattern="[\x00-\x7F]{1}"></input>  (none = remove) and format string</span>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<div style="padding-bottom: 0.5%">
+				<textarea id="bibkeyFormatString" draggable="false" style="resize: none; width: 18.4cm;">{!authors[0,0]}{year||access_year}{month_abbrev}</textarea><br>
+				<span id="bibkeyExampleText" style="font-size: 70%"><input type="button" id="testBibkeyString" title="Test format string" value="Test"></input>&nbsp;<b>format string on example citation below:</b></span>&nbsp;<span id="bibkeyExample" style="font-size: 70%"></span></div>
+				<div>
+				<input type="button" id="setBibkeyString" title="Set bibkey format string" value="Save"></input>&nbsp;<input type="button" id="showCurrentBibkeyString" title="Show current bibkey format string" value="Load current"></input>&nbsp;<input type="button" id="restoreBibkeyString" title="Show previous bibkey format string" value="Load previous"></input>&nbsp;<input type="button" id="restoreBibkeyDefault" title="Show default bibkey format string" value="Load default"></input>
+				</div>
+			</span>
+			<a name="bibkeyExamples">
+			<br>
+			<span style="font-size: enter90%">
+			
+			<b>Instructive examples</b> of valid format strings and resulting bibkeys for a citation with title "Ill Be Bach", from January 1960, with ISBN 978-012345678-6 and authors "John Dough Jr.", "Ken Ishnet", as well as "Arnold Weissenrunda Sr.":
+			<ul style="font-size: 85%">
+			<li>"{authors[0,0]\\\/[\s\-].*$///(.*)/\L{$1}//}{year||access_year}{title\\\/[\s\-].*$///(.*)/\L{$1}//}" -> "dough1960ill" (Google Scholar style)</li>
+			<li>"{authors[0]}{year}" -> "Dough,Jr.,John1960" , "{authors[0,0]}{year}" -> "Dough1960"</li>
+			<li>"{authors[1,0]}:{year[-2]}{month_abbrev}" -> "Ishnet:60Jan" , "Cite-{authors[-1,-1]}-{title}" -> "Cite-Arnold-Ill_Be_Bach"</li>
+			<li>"{authors[0,0]\\\/(.{3})/\U{$1}//}" -> "DOUgh"</li>
+			</ul>
+			<b>Full reference and explained examples</b> of how format strings are constructed are shown <a href="#bibkeyDocu">below</a>. </span>
+			<br>
+		</p>
+		
+		<br>
+		<h2>URL rewrite (Proxy) adjuster settings</h2>
+		In case you surf the web through a proxy server that rewrites the URL you are following (e.g "journals.mypub.org" to "journals.mypub.org.proxy.myuni.com"), the URL matching system of BibItNow fails, and the correct site specific adjusters cannot be determined. To re-enable site adjusters, you can optionally specify the part of the URL that shall be ignored during the URL matching procedure (e.g., "proxy.myuni.com"), and you may set how BibItNow should attempt to match the remaining part of the URL ("journals.mypub.org" in the above example). Furthermore, since (proxy) URLs may typically have limited access and validity, you can always specify whether to globally remove the URL from the formatted citation. 
+		<p>
+			<span style="white-space: nowrap">
+				<input id="urlCorrectionCheckbox" name="urlCorrectionCheckbox" type="checkbox"></input><span id="urlCorrectionCheckboxText">&nbsp;Activate URL rewrite adjuster</span>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<span id="ignoreURLTextfieldText"><u>Enter new URL scheme to be ignored (ASCII only):</u>&nbsp;&nbsp;</span><input id="ignoreURLTextfield" name="ignoreURLTextfield" type="text"></input>&nbsp;<input type="button" id="ignoreURLButton" title="Set new URL scheme to be ignored" value="Set"></input>
+			</span><br>
+			<span style="white-space: nowrap; font-size: 95%">
+				<span id="ignoredURLText" style="">Currently ignored scheme:</span>&nbsp;<b><span id="ignoredURL">none</span></b>&nbsp;<input type="button" id="removeURLButton" title="Remove URL scheme to be ignored" value="Remove"></input>
+			</span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="delimInsensitiveCheckbox" name="delimInsensitiveCheckbox" type="checkbox"></input><span id="delimInsensitiveCheckboxText">&nbsp;Match original domain insensitively to periods and hyphens</span>
+			</span> &nbsp;<input type="button" id="showDelimInsensitiveInfo" title="Show/Hide what is this option about" value="Show what is this about"></input><br>
+			<span id="delimInsensitiveInfo" style="font-size: 80%; display: none"><br>What is the second option about? Some URL rewrite schemes represent periods (".") and hyphens ("-") in the original domain as a single character, e.g., converting "journals.mypub.org" to "journals-mypub-org.proxy.myuni.com" by replacing all periods in the original domain. To ensure a positive match, you may instruct the URL matcher to match the original domain insensitively to these 2 delimiting characters. <b>NOTE: Enabling this option introduces a small but finite chance for a false positive match! To minimize the risk, this option is only effective if a non-empty URL scheme to be ignored is found in the URL to be matched.</b></span>
+		</p>
+		<p>
+			<span style="white-space: nowrap">
+				<input id="suppressUrlCheckbox" name="suppressUrlCheckbox" type="checkbox"></input><span id="suppressUrlCheckboxText">&nbsp;Remove URL from formatted citation</span>
+			</span>
+		</p>
+		<br>
+		<a name="redirectionSchemeUI">
+		<h2>Custom redirection schemes</h2>
+		By default, the redirection link at the bottom of the extension popup constitutes a DOI link to the cited source whenever a DOI is found for the citation. Here, you may use format strings (documentation below) to define custom schemes of how BibItNow should construct this redirection link. This can be used to, e.g., search an author or an ISBN in some online library. <b>User-defined redirection schemes can be found and downloaded <a title="Find and download user-defined redirection schemes" href="https://github.com/Langenscheiss/bibitnow/tree/master/redirectionSchemes" target="_blank">here</a> </b>!<br>
+		<p>
+			<table>
+			<td style="vertical-align:top; width: 5cm;">
+				<span style="white-space: nowrap"><a id="addRedirectionScheme" draggable="false" title="Add new redirection scheme" href="#0">Add scheme</a></span><br><br>
+				<span style="white-space: nowrap" id="editRedirectionSchemeText">Edit scheme:</span><br>
+				<select id="redirectionSelectorBox" title="Select redirection scheme" style="height: 0.8cm; width: 3cm; -webkit-transform: scale(0.9); -webkit-appearance: menulist-button;">
+				</select><br><br><br>
+				<span style="white-space: nowrap"><a id="exportRedirectionSchemes" draggable="false" title="Export all redirection schemes to a file" href="#0">Export all</a></span><br><br>
+				<span style="white-space: nowrap"><a id="importRedirectionSchemes" draggable="false" title="Import redirection schemes from a file" href="#0">Import</a><input type="file" id="importedRedirectionSchemes" accept=".bnrs" style="display:none"></span><br><br><br>
+				<span style="white-space: nowrap"><a id="removeRedirectionSchemes" draggable="false" title="Remove all redirection schemes" href="#0">Remove all</a></span><br><br>
+			</td>
+			<td style="vertical-align:top; border: 1px solid black; padding: 0.1cm">
+			
+				<div style="height: 0.3cm"><span style="white-space: nowrap; padding: 0px" id="redirectionSchemeNameText">Name: <input type="text" id="redirectionSchemeName" title="Name of redirecton scheme" value="" style="width: 2.5cm"></input></span></div><br>
+				<div style="height: 0.25cm"><span style="white-space: nowrap" id="redirectionSchemeNameTooltipText">Tooltip: <input type="text" id="redirectionSchemeTooltip" title="Toolip of redirecton scheme" value="" style="width: 8cm"></input></span></div><br>
+				<span style="white-space: nowrap" id="redirectionSchemeAppearance1Text">Appears in extension popup as: 
+				<input type="radio" id="redirectionSchemeAppearance1" name="redirectionSchemeAppearance" value="link" checked="true"><label for="redirectionSchemeAppearance1">Link</label>
+				<input type="radio" id="redirectionSchemeAppearance2" name="redirectionSchemeAppearance" value="tooltip"><label for="redirectionSchemeAppearance2">Tooltip</label></span><br>
+				<p>
+					<div style="height: 0.3cm"><span style="white-space: nowrap" id="whiteSpaceCharRedirectionText">Replace white-space by: <input type="text" id="whiteSpaceCharRedirection" style="width: 0.5cm" value="+" size="1" maxlength="1" pattern="[\x00-\x7F]{1}"></input></span></div><br>
+					<span style="white-space: nowrap" id="redirectionSchemeFormatStringText">Redirection scheme format string:</span><br>
+					<textarea id="redirectionSchemeFormatString" draggable="false" style="resize: none; width: 18.4cm; height: 2.5cm">{!doi\https://doi.org/\||url}</textarea><br>
+				</p>
+				<input type="button" id="redirectionSchemeSave" title="Save changes made to custom redirection scheme" value="Save changes"></input>&nbsp;<input type="button" id="redirectionSchemeRemove" title="Remove custom redirection scheme" value="Remove scheme"></input>&nbsp;<input type="button" id="redirectionSchemeExport" title="Export custom redirection scheme" value="Export scheme"></input>
+			</td>
+			</table>
+		</p>
+		<p>
+			<a name="bibkeyDocu">
+			<span style="white-space: nowrap"><b>Format string reference and explained examples</b>: &nbsp;<input type="button" id="showBibkeyInfo" title="Show/Hide bibkey format string rules" value="Show format string reference"></input></span><br>
+		</p>
+		
+		<div id="bibkeyInfo" style="font-size: 90%; display: none">
+		<ul>
+		<li><b><span style="color: blue">Text not enclosed by curly bracket:</span></b> Included verbatim (sanitized to URL compatible character set) into formatted output for redirection scheme or bibkey.</li>
+		<li><b><span style="color: blue">Unescaped curly brackets "{" and "}":</span></b> enclose <b>bibfield identifiers</b> (#BIBFIELD_IDENTIFIER), <b>their options</b> (#OPTIONS), <b>conditional prefixes</b> (#COND_PREFIX) and <b>suffixes</b> (#COND_SUFFIX), as well as a <b>sed-style regular expression</b> (#REPLACEMENT_REGEXP) used to replace characters in the obtained bibfield data.<ul><li> Format: {#BIBFIELD_IDENTIFIER[#OPTIONS]\#COND_PREFIX\#COND_SUFFIX\#REPLACEMENT_REGEXP}. One can connect several such sequences with a logical or "||", in the sense that the next #BIBFIELD_IDENTIFIER\... should be used if the content of the bibfield identified by the previous #BIBFIELD_IDENTIFIER is an empty string. The format then reads {#BIBFIELD_IDENTIFIER[#OPTIONS]\#COND_PREFIX\#COND_SUFFIX\#REPLACEMENT_REGEXP||#BIBFIELD_IDENTIFIER[#OPTIONS]\#COND_PREFIX\#COND_SUFFIX\#REPLACEMENT_REGEXP...}. </li><li>#BIBFIELD_IDENTIFIER is required, all other arguments are optional.</li><li>Backslashes "\" separate identifier, conditional prefix, conditional suffix, and regular expression. They are not required if no prefix, suffix and regular expression. To only specify a prefix, it is enough to state "\#COND_PREFIX\". To only specify suffix, use empty prefix, i.e., "\\#COND_SUFFIX\". To only specify a regular expression, use "\\\#REPLACEMENT_REGEXP".</li></ul></li>
+		<li><b><span style="color: blue">Unescaped curly brackets "{" and "}" in #REPLACEMENT_REGEXP:</span></b> If integers and the "," character are enclosed by unescaped curly brackets inside the regular expression part #REPLACEMENT_REGEXP, such curly brackets are interpreted as quantifiers which are part of the regular expression.</li>
+		<li><b><span style="color: blue">Hide bibfield (?):</span></b> If a "<b>?</b>" is placed directly after bibfield identifier (#BIBFIELD_IDENTIFIER) or option sequence in square brackets ([#OPTIONS]), the content of the bibfield referred to by #BIBFIELD_IDENTIFIER and #OPTIONS is <b>hidden</b> from formatted output. Useful, e.g., in combination with conditional prefixes/suffixes or with exclamation mark.</li>
+		<li><b><span style="color: blue">Require bibfields (!):</span></b> If a "<b>!</b>" is placed in front of the first #BIBFIELD_IDENTIFIER in curly brackets "{" and "}", the following bibfield(s) enclosed by the curly brackets become a <b>minimum requirement</b> for the <b>entire</b> format string to result in a non-empty output string upon application. Minimum requirement means that the bibfield content obtained by any of the #BIBFIELD_IDENTIFIER and #OPTIONS must be a non-empty string.</li>
+		<li><b><span style="color: blue">Bibfield connector "||":</span></b> Connects bibfield identifiers to a list. Acts as a "logical or" = first bibfield (from the left) with non-empty data string in citation is included.</li>
+		<li><b><span style="color: blue">Valid bibfield identifiers (#BIBFIELD_IDENTIFIER):</span></b> type, title, title_latex, authors, authors_latex, journal, journal_latex, journal_abbrev, journal_abbrev_latex, volume, issue, page_range, issn, year, month_abbrev, doi, url, publisher, publisher_latex, eprint, bibkey_default, date, start_page, end_page, note, school, author_initials, keywords, keywords_latex, abstract, abstract_latex, month_full, access_year, access_month_abbrev , access_month_number, access_day, publisher_short, database , database_short , isbn, month_number, journal_abbrev_nodot, channel, isbn_nodash, date_iso , urldate, lang_full, lang_iso1, lang_iso2t, lang_iso2b, lang_iso3, authors_mixed, title_mixed, publisher_mixed, keywords_mixed, abstract_mixed, journal_mixed, journal_abbrev_mixed, collection_title, publisher_address , publisher_address_latex, publisher_address_mixed, isbn_territory, domain_country
+        </li>
+		<li><b><span style="color: blue">Option bracket [#OPTIONS]:</span></b> enclose <b>option sequence</b> (#OPTIONS) for preceding bibfield identifier.</li>
+		<li><b><span style="color: blue">Option sequence (#OPTIONS):</span></b> comma-separated sequence of <b>option indices</b> specifying which part of the citation data referred to by preceding bibfield identifier should be included into bibkey.</li>
+		<li><b><span style="color: blue">Meaning of option index:</span></b> depends on whether citation data referred to by preceding bibfield identifier <b>+ preceding option indices in sequence</b> is list or string:<ul> <li><b>List:</b> index = position in list, 0,1,... = first,second,... ; -1,-2,... = last,second to last,...</li> <li><b>String:</b> index = character in string <b>up to which</b> string is taken, 0,1,... = first,second,... character <b>from the left</b>, -1,-2,... = first,second,... character <b>from the right</b></li></ul></li>
+		<li><b><span style="color: blue">Citation data provided as lists:</span></b> <ul> <li>authors = [#AUTHOR1,#AUTHOR2,...,#AUTHORLAST] with #AUTHOR = [#SURNAME,#JR/SR,#FIRSTNAME], where at least #SURNAME is a non-empty string</li> <li>author_initials = [#AUTHOR1_INITIALS,#AUTHOR2_INITIALS,...,#AUTHORLAST_INITIALS] </li><li> keywords = [#KEYWORD,#KEYWORD,...]</li></ul></li>
+		<li><b><span style="color: blue">Conditional prefixes (#COND_PREFIX) and suffixes (#COND_SUFFIX):</span></b> Strings which appear verbatim (sanitized to URL compatible character set) in formatted output before(prefix)/after(suffix) bibfield content referred to by #BIBFIELD_IDENTIFIER and #OPTIONS, <b>but only if bibfield content is not empty string</b>.</li>
+		<li><b><span style="color: blue">Regular expression (#REPLACEMENT_REGEXP):</span></b> Used to replace characters in the bibfield content obtained from the preceding #BIBFIELD_IDENTIFIER and its #OPTIONS, not affecting prefix and suffix.<ul><li> Format: /#REGULAR_EXPRESSION/#REPLACEMENT_STRING/#FLAGS/. To apply multiple character replacements subsequently, simply concatenate more regular expressions, i.e., /#REGULAR_EXPRESSION/#REPLACEMENT_STRING/#FLAGS/#REGULAR_EXPRESSION/#REPLACEMENT_STRING/#FLAGS/... . </li> <li>#REGULAR_EXPRESSION is a regular expression that identifies the part of the bibfield string that should be replaced. The full set of javascript regular expressions including grouping is supported (see <a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp">here</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">here</a>), except for the character sequence "||" which is reserved for the logical or. To enter two vertical bars, escape them, i.e., write "\|\|" instead.</li><li>#REPLACEMENT_STRING is the string that replaces the characters selected by #REGULAR_EXPRESSION. Note that one can use the "$" character for backreferences to groups previously defined with "(...)" in #REGULAR_EXPRESSION. Groups can also be converted to upper case/lower case with the commands \L{$#NUMBER} (lower case) and \U{$#NUMBER} (upper case) inserted into the #REPLACEMENT_STRING, where $NUMBER is the integer number corresponding to the group number, starting from 1. To enter the actual "$", one needs to escape it, i.e., one writes "\$", just as for "||". To enter an empty string, simply use "/#REGULAR_EXPRESSION//#FLAGS/".</li><li>#FLAGS are used together with #REGULAR_EXPRESSION to match characters in the bibfield content. For example, "g" means that all occurrences of #REGULAR_EXPRESSION are replaced, and "i" activates case insensitive matching. Flags can be combined by concatenating them to, e.g., "gi". A list of all supported flags can be found <a href="https://javascript.info/regexp-introduction">here</a>. To set no flag, simply use "/#REGULAR_EXPRESSION/#REPLACEMENT_STRING//". The "e" flag is special. It signals that if the data referred to by the identifier #BIBFIELD_IDENTIFIER and the option sequence #OPTIONS is an empty string, it should be replaced by the replacement string #REPLACEMENT_STRING. The purpose of this flag is to support flow control in case of empty strings.</li></ul></li>
+		<li><b><span style="color: blue">Explained examples:</span></b><ul><li>Simply take citation url: "{!url}" -> "https://testjournal.com"</li><li>Take DOI and build DOI-Link by using conditional prefix: "{!doi\https://doi.org/\}" -> "https://doi.org/10.1000/testDoi"</li><li>Either DOI Link or URL if DOI not available: "{!doi\https://doi.org/\||url}"</li>
+		<li>Search article on Google Scholar: "{!doi\https://scholar.google.com/scholar_lookup?&doi=\}{title\&title=\}" and white space replacement "+" -> "https://scholar.google.com/scholar_lookup?&doi=10.1000/testDoi&title=Ill+Be+Bach"
+		<li>Search last author on Google Scholar: "{!authors[-1,0]?\https://scholar.google.com/scholar?q=\}{authors[-1,2]\\+\}{authors[-1,0]}" and white space replacement "+" -> "https://scholar.google.com/scholar?q=Arnold+Weissenrunda"</li>
+		<li>Search ISBN on Google Books: "{!isbn\https://www.google.com/search?tbo=p&tbm=bks&q=isbn:\&num=10\/[\-]//gi/}" and white space replacement "+", where "/[\-]//gi/" is the replacement regular expression (#REPLACEMENT_REGEXP) that removes all "-" characters from the ISBN -> "https://www.google.com/search?tbo=p&tbm=bks&q=isbn:9780123456786&num=10"</li>
+		</ul> </li>
+		<li><b><span style="color: blue">Examples for bibkey customization explained:</span></b> See examples <a href="#bibkeyExamples">above</a> :<ul><li>Cite-{authors[-2,1,-1]}{year}" -> "Cite-n1960" = include fixed string "Cite-", try to include last character "n" of the first name "Ken" of the second to last author "Ken Ishnet", try to include year "1960"</li><li>"{!authors[0,0]}{year||access_year}{month_abbrev}" -> "Dough1960Jan" = require including last name "Dough" (=first element in list [#SURNAME,#JR/SR,#FIRSTNAME]) of first author "John Dough Jr.", try to include either year "1960" or access year "2018", try to include abbreviation "Jan" of month "January"</li><li>"{authors[0,0]\\\/(.{3})\U{$1}//}" -> "DOUgh" = include last name "Dough" (=first element in list [#SURNAME,#JR/SR,#FIRSTNAME]) of first author "John Dough Jr.", convert first 3 characters to upper case.</li></ul> </li>
+		</ul>
+		</div>
+
+		<p>
+		<span style="white-space: nowrap"><b>Importable example files with redirection schemes:</b></span><br> 
+		- <span style="white-space: nowrap"><a id="exportGoogleScholarScheme" draggable="false" title="Get example redirection scheme for finding DOI on Google Scholar" href="#0">Find DOI on Google Scholar</a></span><br>
+		- <span style="white-space: nowrap"><a id="exportGoogleBooksScheme" draggable="false" title="Get example redirection scheme for finding ISBN on Google Books" href="#0">Find ISBN on Google Books</a></span><br>
+		<br>
+		<span><b>DISCLAIMER:</b> Be careful in following links constructed by used-defined schemes, as they may be malformed to refer to potentially malicious content! The creators of "BibItNow!" do not take responsibility for user-defined redirection links and the content to which they refer.</span><br>
+		</p>
+		<br>
+		<a name="citationFormatUI">
+		<h2>Custom citation formats</h2>
+		BibItNow supports custom citation formats next to the Bibtex, RIS, Endnote, (B)Arnold S., APA and MLA format. Here, you can create, import, remove or edit these custom formats using the format array syntax explained below. <b>User-defined citation formats can be found and downloaded <a title="Find and download user-defined citation formats" href="https://github.com/Langenscheiss/bibitnow/tree/master/citationStyles" target="_blank">here</a> </b>!<br>
+		<p>
+			<table>
+			<td style="vertical-align:top; width: 5cm;">
+				<span style="white-space: nowrap"><a id="addCitationFormat" draggable="false" title="Add new citation format" href="#0">Add format</a></span><br><br>
+				<span style="white-space: nowrap" id="editCitationFormatText">Edit format:</span><br>
+				<select id="citationSelectorBox" title="Select citation format" style="height: 0.8cm; width: 4cm; -webkit-transform: scale(0.9); -webkit-appearance: menulist-button;">
+				</select><br><br><br>
+				<span style="white-space: nowrap"><a id="exportCitationFormats" draggable="false" title="Export all custom citation formats to a file" href="#0">Export all</a></span><br><br>
+				<span style="white-space: nowrap"><a id="importCitationFormats" draggable="false" title="Import custom citation formats from a file" href="#0">Import</a><input type="file" id="importedCitationFormats" accept=".bnfa" style="display:none"></span><br><br><br>
+				<span style="white-space: nowrap"><a id="removeCitationFormats" draggable="false" title="Remove all custom citation formats" href="#0">Remove all</a></span><br><br>
+			</td>
+			<td style="vertical-align:top; border: 1px solid black; padding: 0.1cm">
+			
+				<div style="height: 0.3cm"><span style="white-space: nowrap; padding: 0px" id="citationFormatNameText">Name: <input type="text" id="citationFormatName" title="Name of citation format" value="Custom format" style="width: 2.7cm"></input></span></div><br>
+				<div style="height: 0.3cm"><span style="white-space: nowrap; padding: 0px" id="citationFormatFileExtensionText">File extension: <input type="text" id="citationFormatFileExtension" title="Extension of file when citation format is exported" value="txt" style="width: 2.7cm"></input></span>&nbsp; <span style="white-space: nowrap; padding: 0px" id="citationFormatEncodingText">Encoding: <input type="text" id="citationFormatEncoding" title="Encoding of file when citation format is exported" value="utf8" style="width: 2.7cm"></input></span></div><br>
+				<p>
+					<span style="white-space: nowrap" id="citationFormatSourceText">Citation format source:</span><br>
+					<textarea id="citationFormatSource" draggable="false" style="resize: none; width: 35.4cm; height: 10.5cm">[&#13;&#10;"Test format:\n",&#13;&#10;{ req: true, bibfields: [ ["title","Title: ","",""] ] }&#13;&#10;]</textarea><br>
+				</p>
+				<input type="button" id="citationFormatSave" title="Save changes made to custom citation format" value="Save changes"></input>&nbsp;<input type="button" id="citationFormatRemove" title="Remove custom citation format" value="Remove format"></input>&nbsp;<input type="button" id="citationFormatExport" title="Export custom citation format" value="Export format"></input><br>
+			</td>
+			</table>
+		</p>
+		<p>
+			<a name="formatDocu">
+			<span style="white-space: nowrap"><b>Format array reference and explained examples</b>: &nbsp;<input type="button" id="showFormatInfo" title="Show/Hide help for format array syntax" value="Show format array reference"></input></span><br>
+		</p>
+		
+		<div id="formatInfo" style="font-size: 90%; display: none">
+		<ul>
+			<li><b><span style="color: blue">Format:</span></b> [#ITEM,#ITEM,#ITEM,...] with #ITEM being either a <b>string</b> or a <b>bibfield object</b>. When #ITEM is a string, this static string will be added to the output of the citation format. If #ITEM is a bibfield object, citation data is fetched and then added to the citation format output in a way specified by the properties of the bibfeld object.</li>
+			<li><b><span style="color: blue">Format of bibfield object:</span></b> { req: #REQUIRED , bibfields: [#BIBFIELD_ARRAY,#BIBFIELD_ARRAY,...]} with #REQUIRED being a boolean, and any <b>bibfield array</b> #BIBFIELD_ARRAY in the array assigned to "bibfields" being itself an array. </li>
+			<li><b><span style="color: blue">The "req" property (#REQUIRED):</span></b> If #REQUIRED is true, this signals that the entire parent format array yields an empty string added to the citation format output if the bibfield object yields an empty string. Example: Given a format array ["dummy",#OBJECT] with #OBJECT being a bibfield object with #REQUIRED set to true, the citation format output will be "dummy..." if #OBJECT yields a non-empty string, but will be the empty string "" if #OBJECT yields an empty string, regardless of the presence of "dummy" as a static string.</li>
+			<li><b><span style="color: blue">The "bibfields" property:</span></b> An array of bibfield arrays. The first bibfield array to yield a non-empty string is chosen for the citation output, and the rest ignored.</li>
+			<li><b><span style="color: blue">Format of bibfield array (#BIBFIELD_ARRAY):</span></b> [#BIBFIELD_IDENTIFIER,#OPTIONS,#HIDE,#COND_PREFIX,#COND_SUFFIX,#REGEXP_ARRAY], with the <b>bibfield identifier</b> #BIBFIELD_IDENTIFIER being a string or a number, the <b>access sequence</b> #OPTIONS being a comma-separated sequence of numbers, the <b>"hide"-flag</b> #HIDE being a boolean, the <b>conditional prefix</b> #COND_PREFIX and <b>conditional suffix</b> #COND_SUFFIX both being either a string or another format array [#ITEM,#ITEM,...], and the <b>regular expression array</b> #REGEXP_ARRAY .</li>
+			<li><b><span style="color: blue">Bibfield identifier (#BIBFIELD_IDENTIFIER):</span></b> A string or a number specifying the bibfield to read content from.</li>
+			<li><b><span style="color: blue">Valid bibfield identifier strings:</span></b> type, title, title_latex, authors, authors_latex, journal, journal_latex, journal_abbrev, journal_abbrev_latex, volume, issue, page_range, issn, year, month_abbrev, doi, url, publisher, publisher_latex, eprint, bibkey_default, date, start_page, end_page, note, school, author_initials, keywords, keywords_latex, abstract, abstract_latex, month_full, access_year, access_month_abbrev , access_month_number, access_day, publisher_short, database , database_short , isbn, month_number, journal_abbrev_nodot, channel, isbn_nodash, date_iso , urldate, lang_full, lang_iso1, lang_iso2t, lang_iso2b, lang_iso3, authors_mixed, title_mixed, publisher_mixed, keywords_mixed, abstract_mixed, journal_mixed, journal_abbrev_mixed, collection_title, publisher_address , publisher_address_latex, publisher_address_mixed, isbn_territory, domain_country
+            </li>
+			<li><b><span style="color: blue">Option sequence (#OPTIONS):</span></b> Optional, comma-separated sequence of <b>option indices</b> specifying which part of the citation data referred to by bibfield identifier #BIBFIELD_IDENTIFIER should be read.</li>
+			<li><b><span style="color: blue">Meaning of option index:</span></b> depends on whether citation data referred to by preceding bibfield identifier <b>+ preceding option indices in sequence</b> is list or string:<ul> <li><b>List:</b> index = position in list, 0,1,... = first,second,... ; -1,-2,... = last,second to last,...</li> <li><b>String:</b> index = character in string <b>up to which</b> string is taken, 0,1,... = first,second,... character <b>from the left</b>, -1,-2,... = first,second,... character <b>from the right</b></li></ul></li>
+			<li><b><span style="color: blue">Citation data provided as lists:</span></b> <ul> <li>authors = [#AUTHOR1,#AUTHOR2,...,#AUTHORLAST] with #AUTHOR = [#SURNAME,#JR/SR,#FIRSTNAME], where at least #SURNAME is a non-empty string</li> <li>author_initials = [#AUTHOR1_INITIALS,#AUTHOR2_INITIALS,...,#AUTHORLAST_INITIALS] </li><li> keywords = [#KEYWORD,#KEYWORD,...]</li></ul></li>
+			<li><b><span style="color: blue">Hide flag (#HIDE):</span></b> Boolean flag. If true, the citation data referred to by bibfield identifier #BIBFIELD_IDENTIFIER and option sequence #OPTIONS is read and modified by the the regular expressions in #REGEXP_ARRAY, but the data is not added to the citation output even if it yields a string of finite length after applying the option sequence and regular expressions. The purpose of this is to aid in dynamic flow control. Using regular expressions, one can enforce that the read data only yields a finite-length strength if it has a certain format and certain content. If this is the case, the #HIDE flag set to true then lets the parser proceed with the conditional prefix #COND_PREFIX and/or conditional suffix #COND_SUFFIX without adding the bibfield data itself.</li>
+			<li><b><span style="color: blue">Conditional prefixes (#COND_PREFIX) and suffixes (#COND_SUFFIX):</span></b> If the read data referred to by the bibfield identitier #BIBFIELD_IDENTIFIER and the option sequence #OPTIONS a finite-length string <b>after</b> application of all regular expressions in the array #REGEXP_ARRAY, these are added to the citation format output in front of(prefix)/after(suffix) the bibfield data. If given as a static string, this string is added to the citation format output verbatim. If given as a format array in the form [#ITEM,...], the final parsed output of this format array applied to the citation data is used instead. This allows for recursive flow control.</li>
+			<li><b><span style="color: blue">Format of regular expression array (#REGEXP_ARRAY):</span></b>  the <b>conditional prefix</b> #COND_PREFIX and <b>conditional suffix</b> #COND_SUFFIX both being either a string or another format array [#ITEM,#ITEM,...], and the <b>regular expression array</b> #REGEXP_ARRAY .</li>
+			<li><b><span style="color: blue">Regular expression array (#REGEXP_ARRAY):</span></b> Used to replace characters in the bibfield date obtained from the preceding #BIBFIELD_IDENTIFIER and its #OPTIONS, not affecting conditional prefix (#COND_PREFIX) and conditional suffix (#COND_SUFFIX).<ul><li> Format: [#REGULAR_EXPRESSION,#REPLACEMENT_STRING,#FLAGS,#REGULAR_EXPRESSION,#REPLACEMENT_STRING,#FLAGS,...], with the <b>regular expression</b> #REGULAR_EXPRESSION used to match a string, the <b>replacement string</b> #REPLACEMENT_STRING being a string to replace the matched string, and <b>matching flags</b> #FLAGS being a string containing one or more of the letters "g","i","m","s","u","y","e". To apply multiple replacements subsequently, simply add more #REGULAR_EXPRESSION,#REPLACEMENT_STRING,#FLAGS sequences to the array, and they will be processed one after another. </li> <li>The regular expression #REGULAR_EXPRESSION identifies the part of the bibfield data string that should be replaced. The full set of javascript regular expressions including grouping is supported (see <a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp">here</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">here</a>).</li><li>The replacement string #REPLACEMENT_STRING replaces the characters selected by #REGULAR_EXPRESSION. Note that one can use the "$" character for backreferences to groups previously defined with "(...)" in #REGULAR_EXPRESSION. This can be used for flow control based on matching characters in the bibfield data. Groups can also be converted to upper case/lower case with the commands \L{$#NUMBER} (lower case) and \U{$#NUMBER} (upper case) inserted into the #REPLACEMENT_STRING, where $NUMBER is the integer number corresponding to the group number, starting from 1.</li><li>The matching flags #FLAGS are used together with the regular expression #REGULAR_EXPRESSION to match characters in the bibfield content. For example, "g" means that all occurrences of #REGULAR_EXPRESSION are replaced, and "i" activates case insensitive matching. Flags can be combined by concatenating them to, e.g., "gi". A list of all supported flags can be found <a href="https://javascript.info/regexp-introduction">here</a>. To set no flag, simply use the empty string "". The "e" flag is special. It signals that if the data referred to by the identifier #BIBFIELD_IDENTIFIER and the option sequence #OPTIONS is an empty string, it should be replaced by the replacement string #REPLACEMENT_STRING. The purpose of this flag is to support flow control in case of empty strings.</li></ul></li>
+		</ul>
+		</div>
+
+		<p>
+		<span style="white-space: nowrap"><b>Example of importable citation format:</b></span><br>
+		- <span style="white-space: nowrap"><a id="exportExampleFormat" draggable="false" title="Get citation format example" href="#0">Citation format showing only citation title</a></span><br>
+		<br>
+		<span><b>DISCLAIMER:</b> Be careful in importing custom citation formats, and only import the ones you trust. These formats are based on JSON and parsed by the javascript "JSON.parse" function. This parser is the recommended way of parsing JSON securely, and "BibItNow!" on its own performs further validation after "JSON.parse" has been invoked. Nevertheless, one cannot rule out security issues if the JSON data contains malicious content. The creators of "BibItNow!" do not take responsibility for any damage caused by importing user-defined, malicious JSON data.</span><br>
+		</p>
+		<br>
+		<h2>Want to contribute? Visit the <a href="https://github.com/Langenscheiss/bibitnow"><b>github</b></a>!</h2><br>
+	</body>
+	<script type="text/javascript" src="description.js"></script>
+</html>

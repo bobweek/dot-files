@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nu se poate accesa serverul."
+   },
+   "1108": {
+      "message": "Deschideți rezultatele într-o filă nouă"
+   },
+   "1109": {
+      "message": "Nu există rezultate pentru această căutare."
+   },
+   "1285": {
+      "message": "S-a salvat în $ANCHOR_BEGIN$biblioteca dvs.$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Înapoi"
+   },
+   "1299": {
+      "message": "Înainte"
+   },
+   "1300": {
+      "message": "Schimbați contul"
+   },
+   "1301": {
+      "message": "Setări"
+   },
+   "625": {
+      "message": "Încărcare..."
+   },
+   "64": {
+      "message": "Salvați"
+   },
+   "732": {
+      "message": "Biblioteca mea"
+   },
+   "853": {
+      "message": "Butonul Google Academic"
+   },
+   "854": {
+      "message": "Căutați articole academice în timp ce navigați pe Web."
+   },
+   "855": {
+      "message": "Căutați lucrări în timp ce navigați."
+   },
+   "920": {
+      "message": "Căutați"
+   },
+   "96": {
+      "message": "Ștergeți"
+   }
+}

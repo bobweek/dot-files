@@ -1,0 +1,150 @@
+{"level":30,"time":"2022-05-14T15:38:37.976Z","pid":16354,"hostname":"bb-cpu","msg":"key/initialize: Generating new encryption key, since we did not find it on disk"}
+{"level":30,"time":"2022-05-14T15:38:37.978Z","pid":16354,"hostname":"bb-cpu","msg":"config/set: Saving user config to disk"}
+{"level":30,"time":"2022-05-14T15:38:37.978Z","pid":16354,"hostname":"bb-cpu","msg":"config/set: Saved user config to disk"}
+{"level":30,"time":"2022-05-14T15:38:37.982Z","pid":16354,"hostname":"bb-cpu","msg":"app ready"}
+{"level":30,"time":"2022-05-14T15:38:37.983Z","pid":16354,"hostname":"bb-cpu","msg":"starting version 5.43.0"}
+{"level":30,"time":"2022-05-14T15:38:37.983Z","pid":16354,"hostname":"bb-cpu","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2022-05-14T15:38:37.999Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: migrateSchemaVersion: Migrating from schema_version 0 to user_version 0"}
+{"level":30,"time":"2022-05-14T15:38:38.001Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateSchema:\n  Current user_version: 0;\n  Most recent db schema: 57;\n  SQLite version: 3.37.2;\n  SQLCipher version: 4.5.1 community;\n  (deprecated) schema_version: 0;\n"}
+{"level":30,"time":"2022-05-14T15:38:38.001Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion1: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.002Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion1: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.003Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion2: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.003Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion2: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.003Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion3: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.004Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion3: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.004Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion4: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.005Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion4: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.005Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion6: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.006Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion6: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.006Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion7: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.008Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion7: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.008Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion8: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.009Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion8: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.009Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion9: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.010Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion9: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.010Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion10: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.011Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion10: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.011Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion11: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.012Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion11: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.012Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion12: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.013Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion12: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.013Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion13: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.014Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion13: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.014Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion14: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.015Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion14: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.015Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion15: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.017Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion15: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.017Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion16: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.018Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion16: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.018Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion17: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.018Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion17: Index messages_view_once did not already exist"}
+{"level":30,"time":"2022-05-14T15:38:38.019Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion17: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.019Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion18: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.020Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion18: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.020Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion19: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.021Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion19: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.021Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion20: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.024Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion20: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.025Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion21: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.026Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion22: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.027Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion23: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.028Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion24: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.031Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion25: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.032Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion26: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.033Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion27: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.034Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion28: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.035Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion29: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.036Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion30: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.036Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion31: starting..."}
+{"level":30,"time":"2022-05-14T15:38:38.037Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion31: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.039Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion32: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.040Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion33: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.041Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion34: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.042Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion35: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.042Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion36: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.044Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion37: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.048Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion38: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.051Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion39: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.051Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion40: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.055Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion41: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.056Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion42: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.057Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion43: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:38.057Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion43: About to iterate through 0 messages"}
+{"level":30,"time":"2022-05-14T15:38:38.057Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion43: Updated 0 messages"}
+{"level":30,"time":"2022-05-14T15:38:38.058Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion43: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.059Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion44: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.061Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion45: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.062Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion46: success!"}
+{"level":40,"time":"2022-05-14T15:38:38.066Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion47: our UUID not found"}
+{"level":30,"time":"2022-05-14T15:38:38.066Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion47: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.067Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion48: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.068Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion49: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.069Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion50: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.070Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion51: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.070Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion52: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.071Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion53: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:38.071Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion53: Updated 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:38.071Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion53: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.072Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion54: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.073Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion55: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.075Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion56: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.075Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: updateToSchemaVersion57: success!"}
+{"level":30,"time":"2022-05-14T15:38:38.076Z","pid":16354,"hostname":"bb-cpu","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-05-14T15:38:38.076Z","pid":16354,"hostname":"bb-cpu","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-05-14T15:38:38.076Z","pid":16354,"hostname":"bb-cpu","msg":"got slow spellcheck setting true"}
+{"level":30,"time":"2022-05-14T15:38:38.076Z","pid":16354,"hostname":"bb-cpu","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":50,"time":"2022-05-14T15:38:38.077Z","pid":16354,"hostname":"bb-cpu","msg":"visibleOnAnyScreen: windowOptions didn't have valid bounds fields"}
+{"level":30,"time":"2022-05-14T15:38:38.077Z","pid":16354,"hostname":"bb-cpu","msg":"Location reset needed"}
+{"level":30,"time":"2022-05-14T15:38:38.077Z","pid":16354,"hostname":"bb-cpu","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":800,\"height\":610,\"minWidth\":712,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\"}"}
+{"level":30,"time":"2022-05-14T15:38:38.127Z","pid":16354,"hostname":"bb-cpu","msg":"spellcheck: user locale: en"}
+{"level":30,"time":"2022-05-14T15:38:38.127Z","pid":16354,"hostname":"bb-cpu","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2022-05-14T15:38:38.127Z","pid":16354,"hostname":"bb-cpu","msg":"spellcheck: setting languages to:  [\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\"]"}
+{"level":30,"time":"2022-05-14T15:38:38.135Z","pid":16354,"hostname":"bb-cpu","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2022-05-14T15:38:38.142Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: created"}
+{"level":30,"time":"2022-05-14T15:38:38.142Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2022-05-14T15:38:38.142Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-05-14T15:38:38.142Z","pid":16354,"hostname":"bb-cpu","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2022-05-14T15:38:38.144Z","pid":16354,"hostname":"bb-cpu","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2022-05-14T15:38:38.145Z","pid":16354,"hostname":"bb-cpu","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2022-05-14T15:38:38.857Z","pid":16354,"hostname":"bb-cpu","msg":"main window is ready-to-show"}
+{"level":30,"time":"2022-05-14T15:38:38.857Z","pid":16354,"hostname":"bb-cpu","msg":"showing main window"}
+{"level":30,"time":"2022-05-14T15:38:38.858Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-05-14T15:38:39.212Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownAttachments: About to iterate through 0 messages"}
+{"level":30,"time":"2022-05-14T15:38:39.212Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownAttachments: Done processing 0 messages"}
+{"level":30,"time":"2022-05-14T15:38:39.212Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:39.212Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:39.212Z","pid":16354,"hostname":"bb-cpu","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2022-05-14T15:38:39.213Z","pid":16354,"hostname":"bb-cpu","msg":"deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2022-05-14T15:38:39.214Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownStickers: About to iterate through 0 stickers"}
+{"level":30,"time":"2022-05-14T15:38:39.214Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownStickers: Done processing 0 stickers"}
+{"level":30,"time":"2022-05-14T15:38:39.214Z","pid":16354,"hostname":"bb-cpu","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2022-05-14T15:38:39.215Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:39.215Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: removeKnownDraftAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2022-05-14T15:38:39.215Z","pid":16354,"hostname":"bb-cpu","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2022-05-14T15:38:39.215Z","pid":16354,"hostname":"bb-cpu","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2022-05-14T15:38:39.215Z","pid":16354,"hostname":"bb-cpu","msg":"sending `database-ready`"}
+{"level":30,"time":"2022-05-14T15:38:39.219Z","pid":16354,"hostname":"bb-cpu","msg":"Ensuring file permissions for 68 files"}
+{"level":50,"time":"2022-05-14T15:38:39.219Z","pid":16354,"hostname":"bb-cpu","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2022-05-14T15:38:39.220Z","pid":16354,"hostname":"bb-cpu","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2022-05-14T15:38:39.220Z","pid":16354,"hostname":"bb-cpu","msg":"Finish ensuring permissions in 5ms"}
+{"level":30,"time":"2022-05-14T15:38:39.244Z","pid":16354,"hostname":"bb-cpu","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2022-05-14T15:38:39.408Z","pid":16354,"hostname":"bb-cpu","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1280,\"height\":1000,\"x\":0,\"y\":0}"}
+{"level":30,"time":"2022-05-14T15:38:39.408Z","pid":16354,"hostname":"bb-cpu","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2022-05-14T15:38:39.409Z","pid":16354,"hostname":"bb-cpu","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2022-05-14T15:39:30.076Z","pid":16354,"hostname":"bb-cpu","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2022-05-14T15:39:30.079Z","pid":16354,"hostname":"bb-cpu","msg":"App loaded - time: 52101"}
+{"level":30,"time":"2022-05-14T15:39:30.079Z","pid":16354,"hostname":"bb-cpu","msg":"SQL init - time: 98"}
+{"level":30,"time":"2022-05-14T15:39:30.079Z","pid":16354,"hostname":"bb-cpu","msg":"Preload - time: 418"}
+{"level":30,"time":"2022-05-14T15:39:30.079Z","pid":16354,"hostname":"bb-cpu","msg":"WebSocket connect - time: 51233"}
+{"level":30,"time":"2022-05-14T15:39:30.079Z","pid":16354,"hostname":"bb-cpu","msg":"Processed count: 0"}
+{"level":30,"time":"2022-05-14T15:39:30.079Z","pid":16354,"hostname":"bb-cpu","msg":"Messages per second: 0"}
+{"level":30,"time":"2022-05-14T15:50:40.277Z","pid":16354,"hostname":"bb-cpu","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2022-05-14T15:50:40.278Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2022-05-14T15:50:40.278Z","pid":16354,"hostname":"bb-cpu","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2022-05-14T15:50:40.326Z","pid":16354,"hostname":"bb-cpu","msg":"MainSQL: slow query close duration=43ms"}
+{"level":30,"time":"2022-05-14T15:50:40.326Z","pid":16354,"hostname":"bb-cpu","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2022-05-14T15:50:40.328Z","pid":16354,"hostname":"bb-cpu","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2022-05-14T15:50:40.328Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2022-05-14T15:50:40.328Z","pid":16354,"hostname":"bb-cpu","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2022-05-14T15:50:40.329Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2022-05-14T15:50:40.329Z","pid":16354,"hostname":"bb-cpu","msg":"System tray service: rendering no tray"}

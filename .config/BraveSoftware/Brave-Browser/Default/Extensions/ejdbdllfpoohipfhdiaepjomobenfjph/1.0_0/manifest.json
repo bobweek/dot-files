@@ -1,0 +1,15 @@
+{
+   "author": "Keith Hamilton",
+   "content_scripts": [ {
+      "js": [ "blaster.js" ],
+      "matches": [ "https://nytimes.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "A way to get the news you want, at the price you deserve.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmUJoDOpbPJQcP8CdB08rYBo6bSifsUPjrBzM57oFMMinpI+HFil6/mgYoOpsoWPNv/aNVXBtTx/mhOJWKLZMJLwJjIJMeeA5uOGpZ3nPM0ylk1L7ncpQk3hYvwQnKtvdgYs9zkteomrhgX5lZIHuByku5QgoK6f+lgBI1T5kNLGdtP51ucoAekNEtEnO4nhSAvFbmGORfV3NGb5JW/VGg36g8t+obwsX8Us5tvQZjrmjk+Lb/IFKzQSYodBLVv04GaU44Xyg6EXeg3EXOXZpH+AnVK0XtQVkGSnWGM6wXHxVaEACef2A/58sadOsvNqzleaj8C7r7b/Wnjj9Cos8pwIDAQAB",
+   "manifest_version": 2,
+   "name": "NYT Paywall Blaster",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

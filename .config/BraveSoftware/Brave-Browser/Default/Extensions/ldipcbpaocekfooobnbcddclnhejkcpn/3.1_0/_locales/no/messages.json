@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Ingen tilgang til tjeneren."
+   },
+   "1108": {
+      "message": "Åpne resultatene i en ny fane"
+   },
+   "1109": {
+      "message": "Ingen resultater ble funnet for dette søket."
+   },
+   "1285": {
+      "message": "Lagret i $ANCHOR_BEGIN$biblioteket ditt$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Gå tilbake"
+   },
+   "1299": {
+      "message": "Gå fremover"
+   },
+   "1300": {
+      "message": "Bytt konto"
+   },
+   "1301": {
+      "message": "Innstillinger"
+   },
+   "625": {
+      "message": "Laster inn ..."
+   },
+   "64": {
+      "message": "Lagre"
+   },
+   "732": {
+      "message": "Mitt bibliotek"
+   },
+   "853": {
+      "message": "Google Scholar-knapp"
+   },
+   "854": {
+      "message": "Slå opp vitenskapelige artikler når du surfer på nettet."
+   },
+   "855": {
+      "message": "Slå opp artikler når du surfer."
+   },
+   "920": {
+      "message": "Søk"
+   },
+   "96": {
+      "message": "Slett"
+   }
+}

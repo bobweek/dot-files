@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nelze získat přístup k serveru."
+   },
+   "1108": {
+      "message": "Otevřít výsledky na nové kartě"
+   },
+   "1109": {
+      "message": "Nebyly nalezeny žádné výsledky."
+   },
+   "1285": {
+      "message": "Uloženo do $ANCHOR_BEGIN$knihovny$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Vrátit se"
+   },
+   "1299": {
+      "message": "Přejít vpřed"
+   },
+   "1300": {
+      "message": "Přepnout účet"
+   },
+   "1301": {
+      "message": "Nastavení"
+   },
+   "625": {
+      "message": "Načítání..."
+   },
+   "64": {
+      "message": "Uložit"
+   },
+   "732": {
+      "message": "Moje knihovna"
+   },
+   "853": {
+      "message": "Tlačítko Google Scholar"
+   },
+   "854": {
+      "message": "Vyhledávejte odborné články při prohlížení webu."
+   },
+   "855": {
+      "message": "Vyhledávejte články, když procházíte web."
+   },
+   "920": {
+      "message": "Hledat"
+   },
+   "96": {
+      "message": "Smazat"
+   }
+}

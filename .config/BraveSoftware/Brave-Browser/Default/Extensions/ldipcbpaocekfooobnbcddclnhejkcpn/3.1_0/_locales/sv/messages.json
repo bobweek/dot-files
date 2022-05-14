@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Det går inte att komma åt servern."
+   },
+   "1108": {
+      "message": "Öppna resultaten på en ny flik"
+   },
+   "1109": {
+      "message": "Inga resultat för denna sökning."
+   },
+   "1285": {
+      "message": "Sparad i $ANCHOR_BEGIN$biblioteket$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Tillbaka"
+   },
+   "1299": {
+      "message": "Nästa"
+   },
+   "1300": {
+      "message": "Byt konto"
+   },
+   "1301": {
+      "message": "Inställningar"
+   },
+   "625": {
+      "message": "Läser in ..."
+   },
+   "64": {
+      "message": "Spara"
+   },
+   "732": {
+      "message": "Mitt bibliotek"
+   },
+   "853": {
+      "message": "Google Scholar-knapp"
+   },
+   "854": {
+      "message": "Slå upp vetenskapliga artiklar när du surfar på webben."
+   },
+   "855": {
+      "message": "Slå upp artiklar när du surfar."
+   },
+   "920": {
+      "message": "Sök"
+   },
+   "96": {
+      "message": "Ta bort"
+   }
+}

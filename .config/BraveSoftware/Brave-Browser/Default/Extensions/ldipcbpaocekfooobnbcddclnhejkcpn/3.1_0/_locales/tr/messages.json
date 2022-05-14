@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Sunucuya erişilemiyor."
+   },
+   "1108": {
+      "message": "Sonuçları yeni sekmede aç"
+   },
+   "1109": {
+      "message": "Bu arama için sonuç yok."
+   },
+   "1285": {
+      "message": "$ANCHOR_BEGIN$Kitaplığınıza$ANCHOR_END$ kaydedildi.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Geri git"
+   },
+   "1299": {
+      "message": "İleri git"
+   },
+   "1300": {
+      "message": "Hesap değiştir"
+   },
+   "1301": {
+      "message": "Ayarlar"
+   },
+   "625": {
+      "message": "Yükleniyor..."
+   },
+   "64": {
+      "message": "Kaydet"
+   },
+   "732": {
+      "message": "Kitaplığım"
+   },
+   "853": {
+      "message": "Google Akademik Düğmesi"
+   },
+   "854": {
+      "message": "Webde gezinirken akademik makale arayın."
+   },
+   "855": {
+      "message": "Gezinirken makale arayın."
+   },
+   "920": {
+      "message": "Ara"
+   },
+   "96": {
+      "message": "Sil"
+   }
+}

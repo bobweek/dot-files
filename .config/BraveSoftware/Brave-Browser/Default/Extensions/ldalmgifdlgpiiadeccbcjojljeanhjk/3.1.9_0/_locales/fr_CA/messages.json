@@ -1,0 +1,86 @@
+{
+   "addTagHelp": {
+      "description": "Add tag help message",
+      "message": "Plusieurs étiquettes doivent être séparées avec des virgules. Les étiquettes doivent  être d'une longueur minimal de 2 caractères et ne doivent pas contenir de caractères spéciaux tels que des espaces, #, /, ou  \\."
+   },
+   "addTagLabel": {
+      "description": "Title of label.",
+      "message": "Ajouter des étiquettes"
+   },
+   "appDesc": {
+      "description": "Description of the extension",
+      "message": "Recueilli et organise du contenu de l'internet en fichiers simples"
+   },
+   "appLauncher": {
+      "description": "Title of the application launcher in the browser.",
+      "message": "Démarrez TagSpaces"
+   },
+   "appLauncherLabel": {
+      "description": "Title of label.",
+      "message": "Capturer du Contenu Web"
+   },
+   "appName": {
+      "description": "The name of the extension",
+      "message": "Web Clipper TagSpaces"
+   },
+   "desktopTagSpacesLabel": {
+      "description": "Reference to TagSpaces Desktop label",
+      "message": "Organise le contenu recueilli avec l'application de bureau TagSpaces. Il est disponible gratuitement sur"
+   },
+   "downloadLabel": {
+      "description": "Label of the download button",
+      "message": "Télécharger le fichier"
+   },
+   "downloadTitle": {
+      "description": "Title of the download button",
+      "message": "Télécharger le fichier dans son format original"
+   },
+   "editTitleLabel": {
+      "description": "Title of label.",
+      "message": "Modifier le titre du fichier"
+   },
+   "saveAsMhtmlLabel": {
+      "description": "Label of the save as MHTML button",
+      "message": "Sauvegarder la page complète."
+   },
+   "saveAsMhtmlTitle": {
+      "description": "Title of the save as MHTML button",
+      "message": "Sauvegarde la page complète incluant les images comme un fichier MHTML, préservant le design original"
+   },
+   "saveAsSelectionLabel": {
+      "description": "Label of save selection button",
+      "message": "Selection Clip"
+   },
+   "saveBookmarkLabel": {
+      "description": "Lable of bookmark button",
+      "message": "Créer un signet"
+   },
+   "saveBookmarkTitle": {
+      "description": "Title of bookmark button",
+      "message": "Enregistrer un signet de la page en cours comme un fichier URL, compatible avec Windows® et Mac OS®"
+   },
+   "saveFileLabel": {
+      "description": "SAving action label.",
+      "message": "Choisissez le mode d'enregistrement"
+   },
+   "savePageAsHtmlLabel": {
+      "description": "Label of the save as html button",
+      "message": "Sauvegarder la page modifiable"
+   },
+   "savePageAsHtmlTitle": {
+      "description": "Title of the save as html button",
+      "message": "Enregistrer la page complète en incluant les images dans un fichier HTML, le design original ne sera pas conservé"
+   },
+   "saveScreenshotLabel": {
+      "description": "Label of the take screenshot button",
+      "message": "Prend une capture d'écran"
+   },
+   "saveScreenshotTitle": {
+      "description": "Title of the take screenshot button",
+      "message": "Prenez une capture de la partie visible de l'écran comme fichier PNG. Redimensionnez la fenêtre du navigateur afin de mettre au point l'espace exacte pour la capture."
+   },
+   "saveSelectionAsHtmlTitle": {
+      "description": "Title of save selection button",
+      "message": "Enregistrer le contenu sélectionné en incluant toutes les images comme UN fichier HTML"
+   }
+}

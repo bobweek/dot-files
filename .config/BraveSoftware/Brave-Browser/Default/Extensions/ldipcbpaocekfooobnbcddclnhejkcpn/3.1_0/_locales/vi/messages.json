@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Không thể truy cập vào máy chủ."
+   },
+   "1108": {
+      "message": "Mở kết quả trong thẻ mới"
+   },
+   "1109": {
+      "message": "Không có kết quả nào cho tìm kiếm này."
+   },
+   "1285": {
+      "message": "Đã lưu vào $ANCHOR_BEGIN$thư viện của bạn$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Quay lại"
+   },
+   "1299": {
+      "message": "Tiếp tục"
+   },
+   "1300": {
+      "message": "Chuyển đổi tài khoản"
+   },
+   "1301": {
+      "message": "Cài đặt"
+   },
+   "625": {
+      "message": "Đang tải..."
+   },
+   "64": {
+      "message": "Lưu"
+   },
+   "732": {
+      "message": "Thư viện của tôi"
+   },
+   "853": {
+      "message": "Nút Google Scholar"
+   },
+   "854": {
+      "message": "Tra cứu các bài viết học thuật khi bạn duyệt web."
+   },
+   "855": {
+      "message": "Tra cứu các bài viết khi bạn duyệt web."
+   },
+   "920": {
+      "message": "Tìm kiếm"
+   },
+   "96": {
+      "message": "Xóa"
+   }
+}

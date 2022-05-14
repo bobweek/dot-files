@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Tidak dapat mengakses server."
+   },
+   "1108": {
+      "message": "Buka hasil di tab baru"
+   },
+   "1109": {
+      "message": "Tidak ada hasil untuk penelusuran ini."
+   },
+   "1285": {
+      "message": "Disimpan ke $ANCHOR_BEGIN$koleksi Anda$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Kembali"
+   },
+   "1299": {
+      "message": "Maju"
+   },
+   "1300": {
+      "message": "Ganti akun"
+   },
+   "1301": {
+      "message": "Setelan"
+   },
+   "625": {
+      "message": "Memuat…"
+   },
+   "64": {
+      "message": "Simpan"
+   },
+   "732": {
+      "message": "Koleksiku"
+   },
+   "853": {
+      "message": "Tombol Google Scholar"
+   },
+   "854": {
+      "message": "Cari artikel ilmiah saat Anda menjelajah web."
+   },
+   "855": {
+      "message": "Cari makalah saat Anda menjelajah."
+   },
+   "920": {
+      "message": "Telusuri"
+   },
+   "96": {
+      "message": "Hapus"
+   }
+}

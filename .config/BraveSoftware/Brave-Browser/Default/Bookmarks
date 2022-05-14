@@ -1,0 +1,104 @@
+{
+   "checksum": "944ba62fb085458b930b00f2bc6853e6",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13288384855284237",
+            "guid": "f949881d-f662-4a29-9c51-26427e3beae7",
+            "id": "5",
+            "name": "Reverb",
+            "type": "url",
+            "url": "https://reverb.com/my/selling/orders?page=2"
+         }, {
+            "date_added": "13290836586536351",
+            "guid": "55846bf4-efc1-49e7-a17d-f26e260102a3",
+            "id": "6",
+            "name": "Manage a To-Do List | Regolith 1.6",
+            "type": "url",
+            "url": "https://regolith-linux.org/docs/howtos/tdcli-blocklet/"
+         }, {
+            "date_added": "13292982322222767",
+            "guid": "acbf6ce2-1291-4a23-ae9d-8d5706977511",
+            "id": "7",
+            "name": "dataclasses — Data Classes — Python 3.10.4 documentation",
+            "type": "url",
+            "url": "https://docs.python.org/3/library/dataclasses.html"
+         }, {
+            "date_added": "13293988646148041",
+            "guid": "cd1a87e9-88ef-4d03-97e2-ffddea14fdfc",
+            "id": "8",
+            "name": "Delay (audio effect) - Wikiwand",
+            "type": "url",
+            "url": "https://www.wikiwand.com/en/Delay_(audio_effect)"
+         }, {
+            "date_added": "13294243613418964",
+            "guid": "6fda9a1f-3f63-4db7-8aba-44215376d943",
+            "id": "9",
+            "name": "Interactive Weather Satellite Imagery Viewers from NASA MSFC",
+            "type": "url",
+            "url": "https://weather.msfc.nasa.gov/GOES/"
+         }, {
+            "date_added": "13296491462608126",
+            "guid": "021fcc97-fbb5-4a2c-b094-722b9dbf8b1f",
+            "id": "10",
+            "name": "Fractional Laplacian - Mwiki",
+            "type": "url",
+            "url": "https://web.ma.utexas.edu/mediawiki/index.php/Fractional_Laplacian?#As_a_generator_of_a_Levy_process"
+         }, {
+            "date_added": "13296491538924084",
+            "guid": "823706d1-6586-45dd-addc-c63571ab79ef",
+            "id": "11",
+            "name": "Racial capitalism - Wikiwand",
+            "type": "url",
+            "url": "https://www.wikiwand.com/en/Racial_capitalism"
+         }, {
+            "date_added": "13296752485008201",
+            "guid": "bdd58c7f-09fa-4d6b-9ded-30f8a3da28c8",
+            "id": "12",
+            "name": "F5 Dynamic Webtop",
+            "type": "url",
+            "url": "https://vpn.msu.edu/vdesk/webtop.eui?webtop=/Common/vpn.msu.edu_browser_webtop&webtop_type=webtop_full"
+         }, {
+            "date_added": "13296804248084216",
+            "guid": "6cc3e347-234a-42fa-938d-31f102174c06",
+            "id": "13",
+            "name": "Basic SFTP commands - Uppsala Multidisciplinary Center for Advanced Computational Science - Uppsala University, Sweden",
+            "type": "url",
+            "url": "https://www.uppmax.uu.se/support/user-guides/basic-sftp-commands/"
+         } ],
+         "date_added": "13296939197628218",
+         "date_modified": "13296804248084216",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13296939197628219",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13294844866244399",
+            "guid": "f35d1ff6-2901-4bbd-a877-21e310ac4f55",
+            "id": "14",
+            "name": "My Apps Dashboard | Michigan State University",
+            "type": "url",
+            "url": "https://auth.msu.edu/enduser/callback?code=5guedAqCLheEBZM05ZMU7Fwv-IG4vna1KtLvPpKP-Ng&state=Q9owGcQSDVzFntIcyePNtcOppfDdFCtAt6o0j3bB2XwzFsf8ohKWNgOwlS90sEM2"
+         } ],
+         "date_added": "13296939197628220",
+         "date_modified": "13294844866244399",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgr00czql2AAAAAAEgAaWHNBUjBveXFQVmYrR0toZlpiZGlnZGhoQ0k2VFVmb1B5emhaK21ZS3hoRGdIYnR4dGUvbmtFUkxFSFN3NHNKUktaSkhwaUV5V3VPMVVodVRwdWdOR3BRPT0gASoYWnd4bnNVeGVzNGU5dFhmWE4rd2o0dz09EoMBCAISfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkMjAzMDdlNGItNzRiZS00MDA2LWIwZWEtMDk4NWJhZmZmMWNiGAAgACgAMAE44JOJtO0vQOCTibTtL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASgwEIAxJ/ChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRhOTJhMjkyOC1iYzBlLTQyNGQtODUzOC01YTNhNDdhOTc1ZTQYACAAKAAwATjgk4m07S9A4JOJtO0vShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKoAQgNEqMBChxHSHBMUXhmQWl0cm5zWVhzanVLNXE1Q3pMUnc9EiRhNDAxYjY4MC1lNzAxLTRmYTAtYTQ2OS1kZmU1ODY1YTJmZDIYACAAKAAwyYP7tIswOJSk07SLMECUpNO0izBKHEpTNzNPN2RnOVE1Z2dFbXJBMWY2MW91YlRyQT1aHyId/nErT2pTQVNyUk0xSTdzeTVvQ0ZCQks0Q2d2WT1lAAAAABKoAQgMEqMBChxGZ0xpYTlyVkUrbDdjbThTZ0p2S3lZbE43S0U9EiQ0MjRlMTRlMy0xM2NmLTQ3N2EtYTZjNC0yMjNmZjA0Mzg4ODYYACABKAEw+qim9YswOJD1+5uLMED6qKb1izBKHG11UVFSNkhIU1lKMkI5dEh0NGtRQkNGRjVnQT1aHyId/UVUbEtEN2M5RDdxc1lqOTFyU3ZIVXNPRFdncz1lAAAAABKnAQgOEqIBChx0WW54UVo1R2xCdTZzN3puTlh6RWlVVC9abVE9EiQ4ZDcyNzZlMy1kMDBlLTRhNTQtYTA2OS05YmQyMmQ3OTBlM2EYACAAKAAwxY+ujoQwOMWNrI6EMEDFjayOhDBKHGFMN2M0MnU2WUZNNG9UUWxMSW1CZFljSVdvaz1aHiIcVXNOSTE5ampkMFR3K3gwaWJpdldiOUlIZHNFPWUAAAAAEqgBCAsSowEKHC93S1RkbTdCMWw4UkJqRjl5WjJQcWVRVnp1Zz0SJDg3ODM1MjQ5LWIyZjAtNGVmZC05MTFkLTI3ZjUyOTYxMjUwMRgAIAAoADD05cWfijA474PFn4owQO+DxZ+KMEocaVk3TXl2UmpoQ0UwZkJTb3M2VDZQQ2NOQTRFPVofIh37VmJBVFJZdzZGaVUxUmRYbEFEVzlaMm5MSW13PWUAAAAAEqcBCAYSogEKHHFvSEJ2VHdwSjlQMWM4UVNkR2grNXA3R2N0UT0SJDNmY2E2NDVlLTlhMjktNGFkMS05MWZkLTg2OGE5YmM3ZDM5MBgAIAIoAjC1qoX1izA4qpCGl/UvQLGohfWLMEoceDF6dERZZzNZaEN5cldEdmNGWFM4YXF6TUIwPVoeIhxuY3RrbjFQZUt1WlRldFRXTmE3bGxub0Qydmc9ZajerAASqAEIChKjAQocUStGa0hxYXRwUnM4NW9aa2NKM1NpSlNPcEN3PRIkMGZlNjhkMTctMWY5Yi00NWZkLTkxNzMtZDVmZGI5Y2M5ZGZiGAAgAigCMKuqhfWLMDjSr8CfijBAsqiF9YswShwxRGJ3NExEMHlDVS9rVWRMaXZGSDgrWEVFMGM9Wh8iHfZGUlArV2NoZXNITTF4QUoza2RZOERtUjRrRzg9ZT3WdgMSgwEIARJ/Chx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiRmOTNkMTZiZS1lYWQwLTQ3NWMtYTA2OS01MmExNzAxYzBkOTkYACAAKAAwATjhk4m07S9A4ZOJtO0vShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKoAQgHEqMBChx6ajRJdG5hRytaRytwT01ERURER0tXeWVsWjg9EiQ4ZjUzOTNjNC0yNDMwLTQ3MzEtOGNiMy00N2VhNjE0ZGI0YjYYACAAKAAw3O+plv0vOLO4m5b9L0CzuJuW/S9KHDZEc3J2Snl5V0V2K0R6bVJmMklnTThDRFNZMD1aHyIdtzJiQXFYUmZhRlZNWE01WjNrYlRsc0RpR0xDTT1lAAAAABKnAQgFEqIBChxiYWs1b25hZWpRQnhpNVVtQ0tOSCs2cnkwTms9EiQ5OThiODIzZi00ODk5LTQzYmMtOWQ1ZS05NDQzYmI4OTBjNzgYACACKAIwpqqF9YswOPnVirTtL0CxqIX1izBKHGRJSkJyTUZhOWZQZmxMdnliK2xNVzdCR0tGYz1aHiIcTUJsSDVSSnl2K3kxaTM3MjBrYWJiN3JPZTdBPWVklRovEqgBCAgSowEKHDFaVjF1bXhVUy82NW1LWjdySEZ6SjdENkVCVT0SJDM2YzczNmQxLWVkMWMtNDgwZi1hYzZjLTliODIzNDNlODE5ZRgAIAAoADDk14r2gDA4iMqI9oAwQIjKiPaAMEocTjRqTDdqRnNES2hGaGtaYVNHMWxuRGRKblE0PVofIh3bYmJCMWhoeE9BVEY0blB1WWRZc2FVeDdFVmxvPWUAAAAAEqgBCAkSowEKHFdJNjFRMjJQa1NRblUwQnZiQTFmclVWZ05mbz0SJDRmY2NhYjg0LWQxYzUtNDAxMS04YzExLWQ1ZWE2MDJiOGU1MRgAIAAoADCA/dLvgTA498XS74EwQPfF0u+BMEocRTI5SUdiRjFGOEZFdzlTTmlaMHVONUdEWFUwPVofIh3tMjlzNUd3akxWaGFwTFl4VXpibHJKZWE4NTdVPWUAAAAAMAE4AA==",
+   "version": 1
+}

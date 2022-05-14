@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Der kan ikke oprettes adgang til serveren."
+   },
+   "1108": {
+      "message": "Åbn resultaterne i en ny fane"
+   },
+   "1109": {
+      "message": "Der er ingen resultater for denne søgning."
+   },
+   "1285": {
+      "message": "Gemt i $ANCHOR_BEGIN$din samling$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Gå tilbage"
+   },
+   "1299": {
+      "message": "Gå frem"
+   },
+   "1300": {
+      "message": "Skift konto"
+   },
+   "1301": {
+      "message": "Indstillinger"
+   },
+   "625": {
+      "message": "Indlæser..."
+   },
+   "64": {
+      "message": "Gem"
+   },
+   "732": {
+      "message": "Min samling"
+   },
+   "853": {
+      "message": "Google Scholar-knap"
+   },
+   "854": {
+      "message": "Slå op i videnskabelige artikler på samme måde, som du søger på internettet."
+   },
+   "855": {
+      "message": "Slå op i artikler, mens du søger."
+   },
+   "920": {
+      "message": "Søg"
+   },
+   "96": {
+      "message": "Slet"
+   }
+}

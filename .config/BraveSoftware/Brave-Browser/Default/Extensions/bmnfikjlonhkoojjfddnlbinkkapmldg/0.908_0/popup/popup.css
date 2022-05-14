@@ -1,0 +1,539 @@
+/*CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+/* 	background-color: #000000; */
+/* 	opacity: 0.5; */
+	font-family: Courier New;
+	font-size: 0.4cm;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	font-variant: normal;
+	width: 18cm;
+	height: 13.0cm;
+	overflow: hidden;
+	margin: 0.2cm;
+	padding: 0.0cm;
+	
+}
+
+#background-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18cm;
+	height: 13.0cm;
+ 	opacity: 0.025;
+	z-index: -10; 
+	background-image: url("Bobbels.png");
+	background-size: 4.5cm;
+}
+
+
+#entry {
+	width: 100%;
+	height: 89%;
+}
+
+#customizeLinkDiv {
+	position: absolute;
+	left: 0.0cm;
+	top: 1.1cm;
+	height: 0.82cm;
+	width: 1.8cm;
+/* 	background: red; */
+}
+
+#customizeLinkDiv a {
+	position: absolute;
+	top: 0.152cm;
+	text-align: center;
+	left: 0.35cm;
+	color: #666666;
+	text-decoration: none;
+	text-shadow: 2px 2px 20px #AAAAAA;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 0.38cm;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#filterSelector {
+	-webkit-transform: scale(1.0);
+	position: absolute;
+	left: 0.0cm;
+	width: 3.4cm;
+	right: 15.7cm;
+	top: 0.0cm;
+	height: 3.0cm;
+	bottom: 7.85cm;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+/*  	background: red; */
+}
+
+#filterSelector select {
+	-webkit-transform: scale(1.0);
+	-webkit-appearance: menulist-button;
+	position: relative;
+	left: -0.15cm;
+	top: 0.15cm;
+	height: 0.8cm;
+	width: 2.7cm;
+	font-size: 0.4cm;
+}
+
+select#dotSelectorBox {
+	-webkit-transform: scale(1.0);
+	-webkit-appearance: menulist-button;
+	position: relative;
+	left: 0cm;
+	top: 0.15cm;
+	height: 0.8cm;
+	font-size: 0.4cm;
+}
+
+#options {
+	position: absolute;
+	left: 3.4cm;
+	width: 9.0cm;
+	right: 6.3cm;
+	top: 0.0cm;
+	height: 2.38cm;
+	bottom: 8.45cm;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+/* 	background: blue; */
+}
+#journalAbbrevBox {
+	-webkit-transform: scale(1.0);
+	position: relative;
+	left: 0.0cm;
+	width: 0.5cm;
+	right: 8.29cm;
+	top: 0.25cm;
+	height: 0.5cm;
+	bottom: 1.7cm;
+}
+
+#checkBoxText {
+	position: relative;
+	left: 0.05cm;
+	width: 8.25cm;
+	right: 0.0cm;
+	top: 0.15cm;
+	height: 0.1cm;
+	bottom: 1.8cm;
+}
+
+#maxNumAuthorsBox {
+	-webkit-transform: scale(1.0);
+	position: relative;
+	left: 0.0cm;
+	width: 0.5cm;
+	right: 8.29cm;
+	top: 0.45cm;
+	height: 0.5cm;
+	bottom: 1.5cm;
+}
+
+#maxNumAuthorsText {
+	position: relative;
+	left: 0.05cm;
+	width: 6.25cm;
+	right: 2.0cm;
+	top: 0.38cm;
+	height: 0.1cm;
+	bottom: 1.57cm;
+}
+
+#maxNumAuthorsField {
+	-webkit-transform: scale(1.0);
+	position: relative;
+	top: 0.38cm;
+	left: 0.0cm;
+	width: 1cm;
+	height: 0.6cm;
+	font-size: 0.4cm;
+}
+
+#optionLinks {
+	position: absolute;
+	left: 3.6cm;
+	width: 9cm;
+	top: 2.38cm;
+	height: 0.7cm;
+	bottom: 8.45cm;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+}
+
+#optionLinks a {
+	position: absolute;
+	top: 0.15cm;
+	color: #666666;
+	text-decoration: none;
+	text-shadow: 2px 2px 15px #AAAAAA;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 0.41cm;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#advancedOptionLinkDiv {
+	position: absolute;
+	left: 0cm;
+	height: 0.82cm;
+	width: 3.6cm;
+/* 	background: cyan; */
+}
+
+#optionLinkDiv {
+	position: absolute;
+	left: 3.0cm;
+	height: 0.82cm;
+	width: 5.4cm;
+/* 	background: red; */
+}
+
+#optionLinkDiv a {
+	position: absolute;
+	top: 0.152cm;
+	text-align: right;
+	right: 0.0cm;
+}
+
+#advancedOptionLinkDiv a {
+	left: 0.0cm;
+}
+
+#exportButtons {
+	position: absolute;
+	top: 0.0cm;
+	height: 3.0cm;
+	bottom: 7.85cm;
+	width: 6.6cm;
+	left: 12.4cm;
+/* 	background: yellow; */
+}
+
+#exportButtons .copyToClipboard {
+	position: relative;
+	top: 0.15cm;
+	height: 0.8cm;
+	width: 4.2cm;
+	font-size: 0.4cm;
+	white-space: nowrap;
+}
+
+#copyOptionDiv {
+	position: relative;
+	left: 0.0cm;
+	width: 1cm;
+	top: 0.3cm;
+	height: 2.9cm;
+	white-space: nowrap;
+}
+
+#copyOptionDiv a {
+	position: relative;
+	color: #666666;
+	text-decoration: none;
+	text-shadow: 2px 2px 15px #AAAAAA;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 0.41cm;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	height: 2.5cm;
+}
+
+#downloadLink {
+	position: relative;
+	top: 0.6cm;
+	font-size: 0.55cm;
+}
+
+#advancedOptions {
+	background: white;
+	border: 0.1cm double black;
+	border-radius: 0.1cm;
+	position: absolute;
+	padding: 0.15cm;
+	top: 3cm;
+	left: 2.5cm;
+	width: 11cm; 
+	height: 1.7cm;
+	z-index: 2;
+	overflow-y: auto;
+	word-wrap: break-word;
+	display: none;
+	box-shadow: 0.12cm 0.12cm 0.62cm gray;
+	color: black;
+}
+
+#advancedOptions h1 {
+	font-size: 0.4cm;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#advancedOptions input[type="checkbox"] {
+	-webkit-transform: scale(1.0);
+	position: relative;
+	left: 0.0cm;
+	width: 0.5cm;
+	height: 0.6cm;
+}
+
+#advancedOptions input[type="number"] {
+	-webkit-transform: scale(1.0);
+	position: relative;
+	top: -0.15cm;
+	left: 0.0cm;
+	width: 1.2cm;
+	height: 0.6cm;
+}
+
+#advancedOptions span {
+	position: relative;
+	top: -0.15cm;
+	color: black;
+	height: 0.6cm;
+}
+
+#advancedOptions select {
+	-webkit-transform: scale(1.0);
+	-webkit-appearance: menulist-button;
+	position: relative;
+	left: -0.15cm;
+	top: -0.15cm;
+	height: 0.8cm;
+	font-size: 0.4cm;
+}
+
+hr {
+	position: relative;
+	width: 17.5cm;
+}
+
+#dynamicDownloadIndicator {
+	position: absolute;
+	top: 3.00cm;
+	height: 1.6cm;
+	left: 0.0cm;
+	right: 0.0cm;
+	width: 18.4cm;
+	font-size: 0.45cm;
+/* 	font-style: italic; */
+	text-overflow: ellipsis;
+/*	text-align: center;*/
+	line-height: 130%;
+	white-space: nowrap;
+/* 	background: green; */
+}
+#dynamicDownloadIndicator .reloadCitation {
+	position: absolute;
+	top: 0.5cm;
+	height: 0.7cm;
+	right: 0.9cm;
+	width: 2.3cm;
+	font-size: 0.4cm;
+	white-space: nowrap;
+	text-align: center;
+	padding: 0cm;
+}
+
+#doi {
+	position: absolute;
+	padding: 0%;
+	margin: 0%;
+	top: 11.83cm;
+	left: 0.0cm;
+	right: 0.0cm;
+	width: 18.4cm;
+	height: 1.6cm;
+	font-size: 0.45cm;
+	text-overflow: ellipsis;
+	text-align: center;
+	line-height: 130%;
+	white-space: nowrap;
+}
+
+#doiLinkBox {
+	position: absolute;
+	top: 0.92cm;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	left: 0.5cm;
+	right: 0.5cm;
+}
+
+#copyMsg {
+	-webkit-transform: scale(1.0);
+	background: white;
+	border: 0.05cm solid blue;
+	border-radius: 0.1cm;
+	position: absolute;
+	padding: 0.0cm;
+	top: 0.53cm;
+	left: 0.8cm;
+	width: 3.5cm; 
+	height: 0.55cm;
+	z-index: 1;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 0.35cm;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	display: inline;
+	box-shadow: 0.02cm 0.02cm 0.12cm blue;
+	color: blue;
+	display: none;
+}
+
+#redirectionSelectorBox {
+	-webkit-transform: scale(0.8);
+	position: relative;
+	left: -0.15cm;
+	top: 0.02cm;
+	height: 0.8cm;
+	width: 3cm;
+	font-size: 0.4cm;
+}
+
+#redirectionSelectorBox select {
+	-webkit-transform: scale(0.8);
+	-webkit-appearance: menulist-button;
+	position: relative;
+	height: 0.8cm;
+	width: 2.7cm;
+	font-size: 0.4cm;
+}
+
+select#redirectionSelectorBox {
+	-webkit-transform: scale(0.8);
+	-webkit-appearance: menulist-button;
+	position: relative;
+	left: 0cm;
+	height: 0.8cm;
+	font-size: 0.4cm;
+}
+
+#textAreaDiv {
+	position: absolute;
+	top: 4.48cm;
+	left: 0.0cm;
+	width: 18.4cm;
+	right: 0.0cm;
+	height: 7.32cm;
+	resize: none;
+/* 	background: red; */
+}
+
+#textToCopy {
+	position: absolute;
+	top: 0.02cm;
+	left: 0.5cm;
+	width: 17cm;
+	right: 0.5cm;
+	height: 7.1cm;
+	font-size: 0.4cm;
+	font-family: Courier New;
+	overflow-y: scroll;
+	resize: none;
+	background: white;
+	border: solid 1px black;
+}
+
+a#doiLink {
+	text-align: center;
+/*	display: block;*/
+	width: auto;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#editSchemeLink {
+	/*position: absolute;
+	top: 0.15cm;*/
+	color: #666666;
+	text-decoration: none;
+	text-shadow: 2px 2px 20px #AAAAAA;
+	font-weight: bold;
+	font-family: "arial";
+	font-size: 0.38cm;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}

@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Não é possível aceder ao servidor."
+   },
+   "1108": {
+      "message": "Abrir os resultados num novo separador"
+   },
+   "1109": {
+      "message": "Não foi encontrado nenhum resultado para esta pesquisa."
+   },
+   "1285": {
+      "message": "Guardado na sua $ANCHOR_BEGIN$biblioteca$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Retroceder"
+   },
+   "1299": {
+      "message": "Avançar"
+   },
+   "1300": {
+      "message": "Mudar de conta"
+   },
+   "1301": {
+      "message": "Definições"
+   },
+   "625": {
+      "message": "A carregar..."
+   },
+   "64": {
+      "message": "Guardar"
+   },
+   "732": {
+      "message": "A minha biblioteca"
+   },
+   "853": {
+      "message": "Botão do Google Académico"
+   },
+   "854": {
+      "message": "Procurar artigos académicos enquanto navega na Web."
+   },
+   "855": {
+      "message": "Procurar ensaios enquanto navega."
+   },
+   "920": {
+      "message": "Pesquisar"
+   },
+   "96": {
+      "message": "Eliminar"
+   }
+}

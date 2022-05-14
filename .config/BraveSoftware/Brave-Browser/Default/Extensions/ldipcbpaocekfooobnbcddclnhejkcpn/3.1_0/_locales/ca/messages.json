@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "No es pot accedir al servidor."
+   },
+   "1108": {
+      "message": "Obre els resultats en una pestanya nova"
+   },
+   "1109": {
+      "message": "No hi ha cap resultat per a aquesta cerca."
+   },
+   "1285": {
+      "message": "S'ha desat a $ANCHOR_BEGIN$la biblioteca$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Torna"
+   },
+   "1299": {
+      "message": "Endavant"
+   },
+   "1300": {
+      "message": "Canvia de compte"
+   },
+   "1301": {
+      "message": "Configuració"
+   },
+   "625": {
+      "message": "S'està carregant..."
+   },
+   "64": {
+      "message": "Desa"
+   },
+   "732": {
+      "message": "La meva biblioteca"
+   },
+   "853": {
+      "message": "Botó de Google Acadèmic"
+   },
+   "854": {
+      "message": "Cerqueu articles acadèmics mentre navegueu pel web."
+   },
+   "855": {
+      "message": "Cerqueu articles mentre navegueu."
+   },
+   "920": {
+      "message": "Cerca"
+   },
+   "96": {
+      "message": "Suprimeix"
+   }
+}

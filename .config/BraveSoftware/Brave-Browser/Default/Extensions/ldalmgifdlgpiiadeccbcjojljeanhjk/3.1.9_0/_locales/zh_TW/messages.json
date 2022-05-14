@@ -1,0 +1,86 @@
+{
+   "addTagHelp": {
+      "description": "Add tag help message",
+      "message": "多個標籤使用逗號分隔。標籤應該有2個字元的最小長度，不應該包含特殊字元。例：空格、＃、 /、\\等。"
+   },
+   "addTagLabel": {
+      "description": "Title of label.",
+      "message": "新增標籤"
+   },
+   "appDesc": {
+      "description": "Description of the extension",
+      "message": "蒐集與組織網頁內容到文字檔"
+   },
+   "appLauncher": {
+      "description": "Title of the application launcher in the browser.",
+      "message": "啟動 TagSpaces"
+   },
+   "appLauncherLabel": {
+      "description": "Title of label.",
+      "message": "擷取 Web 內容"
+   },
+   "appName": {
+      "description": "The name of the extension",
+      "message": "TagSpaces 網頁擷取工具"
+   },
+   "desktopTagSpacesLabel": {
+      "description": "Reference to TagSpaces Desktop label",
+      "message": "使用 TagSpaces 桌面應用整理收集的內容。 它是免費提供的 "
+   },
+   "downloadLabel": {
+      "description": "Label of the download button",
+      "message": "下載檔案"
+   },
+   "downloadTitle": {
+      "description": "Title of the download button",
+      "message": "下載原格式文件"
+   },
+   "editTitleLabel": {
+      "description": "Title of label.",
+      "message": "編輯檔案標題"
+   },
+   "saveAsMhtmlLabel": {
+      "description": "Label of the save as MHTML button",
+      "message": "儲存完整檔案"
+   },
+   "saveAsMhtmlTitle": {
+      "description": "Title of the save as MHTML button",
+      "message": "儲存完整檔案(含圖片)為單一 MHTML 文件，保留原網頁設計"
+   },
+   "saveAsSelectionLabel": {
+      "description": "Label of save selection button",
+      "message": "擷取選擇"
+   },
+   "saveBookmarkLabel": {
+      "description": "Lable of bookmark button",
+      "message": "建立書籤"
+   },
+   "saveBookmarkTitle": {
+      "description": "Title of bookmark button",
+      "message": "將當前頁面的書籤保存為 URL 文件，兼容 Windows® 和 Mac OS®"
+   },
+   "saveFileLabel": {
+      "description": "SAving action label.",
+      "message": "選擇儲存動作"
+   },
+   "savePageAsHtmlLabel": {
+      "description": "Label of the save as html button",
+      "message": "儲存可編輯頁面"
+   },
+   "savePageAsHtmlTitle": {
+      "description": "Title of the save as html button",
+      "message": "將完整頁面(含圖片)保存為單一 HTML 文件，不保留原始網頁設計"
+   },
+   "saveScreenshotLabel": {
+      "description": "Label of the take screenshot button",
+      "message": "建立螢幕截圖"
+   },
+   "saveScreenshotTitle": {
+      "description": "Title of the take screenshot button",
+      "message": "將當前頁面可視區域截圖為 PNG 文件。調整瀏覽器窗口大小以對焦所需的截圖區域。"
+   },
+   "saveSelectionAsHtmlTitle": {
+      "description": "Title of save selection button",
+      "message": "儲存所選內容(含圖片)為單一 HTML 文件"
+   }
+}

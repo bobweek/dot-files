@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nepavyko pasiekti serverio."
+   },
+   "1108": {
+      "message": "Atidaryti rezultatus naujame skirtuke"
+   },
+   "1109": {
+      "message": "Nerasta jokių šios paieškos rezultatų."
+   },
+   "1285": {
+      "message": "Išsaugota $ANCHOR_BEGIN$jūsų bibliotekoje$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Grįžti atgal"
+   },
+   "1299": {
+      "message": "Eiti pirmyn"
+   },
+   "1300": {
+      "message": "Perjungti paskyrą"
+   },
+   "1301": {
+      "message": "Nustatymai"
+   },
+   "625": {
+      "message": "Įkeliama..."
+   },
+   "64": {
+      "message": "Išsaugoti"
+   },
+   "732": {
+      "message": "Mano biblioteka"
+   },
+   "853": {
+      "message": "„Google“ mokslinčiaus mygtukas"
+   },
+   "854": {
+      "message": "Naršydami žiniatinklyje peržvelkite mokslinius straipsnius."
+   },
+   "855": {
+      "message": "Naršydami peržvelkite straipsnius."
+   },
+   "920": {
+      "message": "Ieškoti"
+   },
+   "96": {
+      "message": "Ištrinti"
+   }
+}

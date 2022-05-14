@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nie je možné získať prístup k serveru."
+   },
+   "1108": {
+      "message": "Otvoriť výsledky na novej karte"
+   },
+   "1109": {
+      "message": "Pre toto vyhľadávanie sa nenašli žiadne výsledky."
+   },
+   "1285": {
+      "message": "Uložené do $ANCHOR_BEGIN$vašej knižnice$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Prejsť späť"
+   },
+   "1299": {
+      "message": "Prejsť ďalej"
+   },
+   "1300": {
+      "message": "Prepnúť účet"
+   },
+   "1301": {
+      "message": "Nastavenia"
+   },
+   "625": {
+      "message": "Prebieha načítavanie..."
+   },
+   "64": {
+      "message": "Uložiť"
+   },
+   "732": {
+      "message": "Moja knižnica"
+   },
+   "853": {
+      "message": "Tlačidlo Študovne Google"
+   },
+   "854": {
+      "message": "Vyhľadávajte odborné články popri prehliadaní webu."
+   },
+   "855": {
+      "message": "Vyhľadávajte články popri prehliadaní."
+   },
+   "920": {
+      "message": "Vyhľadať"
+   },
+   "96": {
+      "message": "Odstrániť"
+   }
+}

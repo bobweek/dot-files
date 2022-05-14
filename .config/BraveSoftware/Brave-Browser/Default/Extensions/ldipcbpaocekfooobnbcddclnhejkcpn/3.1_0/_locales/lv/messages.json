@@ -1,0 +1,58 @@
+{
+   "1107": {
+      "message": "Nevar piekļūt serverim."
+   },
+   "1108": {
+      "message": "Atvērt rezultātus jaunā cilnē"
+   },
+   "1109": {
+      "message": "Šim meklēšanas vaicājumam nav rezultātu."
+   },
+   "1285": {
+      "message": "Saglabāts $ANCHOR_BEGIN$jūsu bibliotēkā$ANCHOR_END$.",
+      "placeholders": {
+         "ANCHOR_BEGIN": {
+            "content": "$1"
+         },
+         "ANCHOR_END": {
+            "content": "$2"
+         }
+      }
+   },
+   "1298": {
+      "message": "Atpakaļ"
+   },
+   "1299": {
+      "message": "Tālāk"
+   },
+   "1300": {
+      "message": "Pārslēgt kontu"
+   },
+   "1301": {
+      "message": "Iestatījumi"
+   },
+   "625": {
+      "message": "Notiek ielāde..."
+   },
+   "64": {
+      "message": "Saglabāt"
+   },
+   "732": {
+      "message": "Mana bibliotēka"
+   },
+   "853": {
+      "message": "Google Scholar poga"
+   },
+   "854": {
+      "message": "Atrodiet zinātniskus rakstus, kad pārlūkojat tīmekli."
+   },
+   "855": {
+      "message": "Atrodiet rakstus tīmekļa pārlūkošanas laikā."
+   },
+   "920": {
+      "message": "Meklēt"
+   },
+   "96": {
+      "message": "Dzēst"
+   }
+}

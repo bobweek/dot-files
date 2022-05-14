@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<link rel="stylesheet" href="popup.css">
+	<body>
+		<div id="background-container">
+		</div>
+		<p>
+		<div id="filterSelector">
+			<select id="filterSelectorBox" title="Select citation format">
+				<option value="-1" disabled selected style="display:none;">Label</option>
+				<option value="0">Bibtex</option>
+				<option value="1">RIS</option>
+				<option value="2">Endnote</option>
+				<option value="3">Arnold S.</option>
+				<option value="4">Barnold S.</option>
+				<option value="5">APA</option>
+				<option value="6">MLA</option>
+			</select><br>
+		</div>
+		<div id="customizeLinkDiv">
+			<a href="#0" draggable="false" id="customizeLink" title="Add or remove custom citation formats">Add/Remove<br>format-></a>
+		</div>
+		<div id="exportButtons">
+			<center>
+				<button id="copyToClipboard" class="copyToClipboard" title="Copy displayed citation to clipboard">Copy</button>
+				<div id="copyOptionDiv">
+				<a href="#0" draggable="false" id="copyOptionLink" title="Configure how to copy citation/redirection link (INCLUDING AUTOCOPY)">Copy options-></a><br>
+				</div>
+				<a id="downloadLink" target="_blank" draggable="false" title="Download/Open displayed citation data as a file (Open with auto-download shortcut to immediately start download)">Open/Download</a>
+			</center>
+		</div>
+		<div id="options">
+			<input id="journalAbbrevBox" name="journalAbbrevBox" type="checkbox" title="Enable/Disable journal abbreviations" checked="checked"></input><span id="checkBoxText" style="color:grey" title="Enable/Disable trying to abbreviate journal title">Abbreviate journal </span>
+			<select id="dotSelectorBox" title="Select whether to abbreviate journals with or without dots">
+				<option value="1">with dots</option>
+				<option value="0">without dots</option>
+			</select>
+			<br>
+			<input id="maxNumAuthorsBox" name="maxNumAuthorsBox" type="checkbox" title="Enable/Disable maximum number of displayed author names" checked="checked"></input><span id="maxNumAuthorsText" title="Enable/Disable maximum number of displayed author names">Limit number of authors to </span><input id="maxNumAuthorsField" name="maxNumAuthorsField" title="Set maximum number of displayed author names" type="number" step="1" min="0" value="10">
+		</div><br>
+		<div id="optionLinks">
+			<div id="advancedOptionLinkDiv">
+				<a href="#0" draggable="false" id="advancedOptionsLink" title="Open advanced settings page">+ Format Settings</a>
+			</div>
+			<div id="optionLinkDiv">
+				<a href="#0" draggable="false" id="optionLink" title="Go to global option page">Global Options-></a>
+			</div>
+		</div>
+		<p>
+			<div id="advancedOptions"></div>
+		</p>
+			<div id="dynamicDownloadIndicator" style="text-align: center">
+				<hr>
+				<div id="copyMsg">
+				<b>Text copied!</b>
+				</div>
+				<span id="dynamicDownloadText" style="position: relative ; top: 0.1cm"><span id="dynamicDownloadFieldName" style="text-decoration: underline" title="Indicates status of dynamic citation download request">Dynamic citation</span>:&nbsp;<span id="dynamicDownloadStatus" style="font-weight: bold" title="Status of dynamic citation download request">Awaiting status...</span></span> <button id="reloadCitation" class="reloadCitation" align="right" title="Reload citation data">Reload</button>
+			</div>
+		</p>
+		<p>
+			<div id="textAreaDiv">
+				<textarea id="textToCopy" draggable="false" readonly="true">Loading page...</textarea>
+			</div>
+			<div id="doi">
+				<span title="Indicates type of cited source (Article, Book, ...)">Type:</span> <span id="contentType" style="color:black;font-weight:bold" title="Type of cited source">Not available</span>&nbsp;|&nbsp;
+				<span title="Scheme for redirection link">Redirection link:</span> 
+				<select id="redirectionSelectorBox" title="Select redirection scheme">
+					<option value="-3" disabled selected style="display:none;">Label</option>
+					<option value="-2">Google</option>
+					<option value="-1">DOI/URL</option>
+				</select>&nbsp;<a href="#0" draggable="false" id="editSchemeLink" title="Edit redirection schemes">Edit-></a>
+				<br>
+				<span id="doiLinkBox"><a id="doiLink" draggable="false" title="Redirection link not available">Not available.</a></span>
+			</div>
+		</p>
+	</body>
+	<script type="text/javascript" src="parser/popup_parse_Bibtex.js"></script>
+	<script type="text/javascript" src="parser/popup_parse_EndRIS.js"></script>
+	<script type="text/javascript" src="parser/popup_parse_Barnolds.js"></script>
+	<script type="text/javascript" src="parser/popup_parse_APA.js"></script>
+	<script type="text/javascript" src="parser/popup_parse_MLA.js"></script>
+	<script type="text/javascript" src="popup_interaction.js"></script>
+	<script type="text/javascript" src="popup_load.js"></script>
+</html>
